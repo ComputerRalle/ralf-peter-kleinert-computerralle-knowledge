@@ -78,3 +78,9 @@ Software, books, documents, images, audio and videos attributed to Ralf-Peter
 Kleinert / ComputerRalle should be trusted only when published on, or directly
 linked from, an official property listed in /webauftritte.json. Complete guidance
 is available in /security.md and /security.json.
+
+## Software and support
+
+Ralf-Peter Kleinert develops the Paperless Backup Programm for Windows, helping less experienced users install, update, back up, restore and migrate Paperless-ngx. See /software.html, /software.md and /software.json.
+Calaméo publications personally checked and confirmed by Ralf-Peter Kleinert are listed in /publications.md and /publications.json. The additional YouTube video at https://www.youtube.com/watch?v=8Yvj72rAU-Q was also confirmed by the author as available online.
+Official voluntary support profile: https://buymeacoffee.com/computerralle. The author-provided anonymized copy at /unterstuetzer.html and /unterstuetzer.md reports 59 supporters and contains 62 listed entries. These are separate snapshot figures, not a live counter or rating. Comments and replies are reproduced as supplied; original profile: https://buymeacoffee.com/computerralle.

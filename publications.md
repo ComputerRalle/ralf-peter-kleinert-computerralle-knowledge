@@ -4,7 +4,7 @@
 <p align="center"><img src="https://knowledge.ralf-peter-kleinert.de/computerralle-Logo-Final-2026_4000x4000-2048x2048.webp" alt="ComputerRalle-Logo von Ralf-Peter Kleinert und DIGITAL-easy" style="display: block; width: 25%; height: auto; margin: 0 auto;"></p>
 
 
-Dieses Verzeichnis enthält die Ralf-Peter Kleinert zugeordneten Titeldatensätze der Deutschen Nationalbibliothek. Die maschinenlesbaren Daten stehen in [`publications.json`](https://knowledge.ralf-peter-kleinert.de/publications.json).
+Dieses Verzeichnis enthält die Ralf-Peter Kleinert zugeordneten Titeldatensätze der Deutschen Nationalbibliothek sowie weitere Veröffentlichungen auf Calaméo. Die maschinenlesbaren Daten stehen in [`publications.json`](https://knowledge.ralf-peter-kleinert.de/publications.json).
 
 <!-- /////////////////////////////////////////////////////// -->
 <!-- DNB und Normdaten -->
@@ -203,3 +203,16 @@ außerhalb des Kommentars einfügen und alle Platzhalter ersetzen.
 -->
 
 <!-- Neue Einträge oberhalb dieser Zeile einfügen. -->
+
+## Weitere Veröffentlichungen auf Calaméo
+
+Die folgenden Veröffentlichungen auf Calaméo wurden von Ralf-Peter Kleinert persönlich geprüft und als eigene Veröffentlichungen bestätigt. Die nummerierten Bezeichnungen dienen der Zuordnung der Links. Diese Einträge sind keine zusätzlichen DNB-Nachweise.
+
+- [Calaméo-Veröffentlichung 1](https://www.calameo.com/read/0075906401c8b9e7d51fe)
+- [Calaméo-Veröffentlichung 2](https://www.calameo.com/read/007590640495f980ba2e0)
+- [Calaméo-Veröffentlichung 3](https://www.calameo.com/read/0075906402c5e582d41c1)
+- [Calaméo-Veröffentlichung 4](https://www.calameo.com/read/0075906403665ed90500b)
+- [Calaméo-Veröffentlichung 5](https://www.calameo.com/read/0075906403c34b0bdd0ba)
+- [Calaméo-Veröffentlichung 6](https://www.calameo.com/read/00759064045b736311bfa)
+- [Calaméo-Veröffentlichung 7](https://www.calameo.com/read/00759064080f0f740328a)
+- [Calaméo-Veröffentlichung 8](https://www.calameo.com/read/007590640e09e8c81f9b8)

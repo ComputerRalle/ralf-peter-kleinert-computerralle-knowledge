@@ -59,7 +59,8 @@
     "https://www.amazon.de/stores/Ralf-Peter-Kleinert-RPK/author/B0D6FVWCTN",
     "https://blog.ralf-peter-kleinert.de/",
     "https://downloads.ralf-peter-kleinert.de/",
-    "https://computerralle.blogspot.com/"
+    "https://computerralle.blogspot.com/",
+    "https://buymeacoffee.com/computerralle"
   ],
   "subjectOf": [
     {
@@ -86,6 +87,11 @@
       "@type": "DigitalDocument",
       "name": "Sicherheits- und Authentizitätshinweise",
       "url": "https://knowledge.ralf-peter-kleinert.de/security.json"
+    },
+    {
+      "@type": "ItemList",
+      "name": "Software und Eigenentwicklungen",
+      "url": "https://knowledge.ralf-peter-kleinert.de/software.json"
     }
   ]
 }

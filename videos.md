@@ -4,10 +4,10 @@
 <p align="center"><img src="https://knowledge.ralf-peter-kleinert.de/computerralle-Logo-Final-2026_4000x4000-2048x2048.webp" alt="ComputerRalle-Logo von Ralf-Peter Kleinert und DIGITAL-easy" style="display: block; width: 25%; height: auto; margin: 0 auto;"></p>
 
 
-Dieses Verzeichnis enthält die öffentlichen Videos und Shorts des offiziellen YouTube-Kanals ComputerRalle. Die maschinenlesbaren Daten stehen in [ideos.json](https://knowledge.ralf-peter-kleinert.de/videos.json).
+Dieses Verzeichnis enthält die öffentlichen Videos und Shorts des offiziellen YouTube-Kanals ComputerRalle. Die maschinenlesbaren Daten stehen in [`videos.json`](https://knowledge.ralf-peter-kleinert.de/videos.json).
 
 - YouTube-Kanal: https://www.youtube.com/@ComputerRalle
-- Veröffentlichungen: 135
+- Veröffentlichungen: 136
 
 <!-- /////////////////////////////////////////////////////// -->
 <!-- Videos -->
@@ -4916,3 +4916,8 @@ Kommentars einfügen und alle Platzhalter durch echte Angaben ersetzen.
 -->
 
 <!-- Neue Videos oberhalb dieser Zeile einfügen. -->
+
+## Weiteres YouTube-Video von ComputerRalle
+
+- YouTube: https://www.youtube.com/watch?v=8Yvj72rAU-Q
+- Hinweis: Von Ralf-Peter Kleinert als online verfügbares eigenes Video bestätigt.

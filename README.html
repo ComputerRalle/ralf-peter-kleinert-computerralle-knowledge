@@ -187,9 +187,11 @@
           <button type="button" aria-haspopup="true">Inhalte</button>
           <ul class="submenu">
             <li><a href="books.html">Bücher</a></li>
+            <li><a href="software.html">Software und Eigenentwicklungen</a></li>
             <li><a href="videos.html">Videos</a></li>
             <li><a href="publications.html">Publikationen und DNB</a></li>
             <li><a href="google-rezensionen.html">Google-Rezensionen</a></li>
+            <li><a href="unterstuetzer.html">Unterstützer und Rückmeldungen</a></li>
           </ul>
         </li>
         <li>
@@ -206,6 +208,7 @@
             <li><a href="organization.json">Organisation (JSON-LD)</a></li>
             <li><a href="profile.json">Gesamtprofil (JSON)</a></li>
             <li><a href="books.json">Bücher (JSON-LD)</a></li>
+            <li><a href="software.json">Software (JSON-LD)</a></li>
             <li><a href="videos.json">Videos (JSON-LD)</a></li>
             <li><a href="publications.json">Publikationen (JSON-LD)</a></li>
             <li><a href="webauftritte.json">Webauftritte (JSON-LD)</a></li>
@@ -302,6 +305,12 @@ Markdown-Dateien bleiben als maschinenlesbare Quellen erhalten.</p>
 <li><p>/security.json</p>
 </li>
 </ul>
+<h2>Software und Eigenentwicklungen</h2>
+<ul>
+<li><code>/software.html</code> – Übersicht für Besucher</li>
+<li><code>/software.md</code> – Inhaltsquelle und offizielle Programmlinks</li>
+<li><code>/software.json</code> – strukturierte Softwaredaten</li>
+</ul>
 <h2>Inhalte manuell erweitern</h2>
 <p>Die sichtbaren Pflegevorlagen befinden sich in:</p>
 <ul>
@@ -317,8 +326,8 @@ Markdown-Dateien bleiben als maschinenlesbare Quellen erhalten.</p>
 <li><code>security.md</code> für Sicherheitsregeln zu Downloads, Quellen und Medienauthentizität</li>
 <li><code>security.json</code> für dieselben Sicherheitsregeln als Schema.org-Daten</li>
 </ul>
-<p>Die Dateien <code>books.json</code> und <code>videos.json</code> enthalten jeweils eine leere
-<code>itemListElement</code>-Liste. Dort werden die gleichen Einträge zusätzlich als
+<p>Die Dateien <code>books.json</code> und <code>videos.json</code> enthalten bereits die erfassten Bücher und Videos als
+<code>itemListElement</code>-Listen. Neue Einträge werden dort zusätzlich zu den Markdown-Dateien als
 gültige Schema.org-Datensätze ergänzt. Platzhalter aus den Markdown-Vorlagen
 nicht veröffentlichen, sondern vor dem Hochladen durch echte Angaben ersetzen.</p>
 <h2>Wichtig</h2>
@@ -339,8 +348,11 @@ alternative Bezeichnungen geführt, damit Suchmaschinen und KI-Systeme
 </script>
 
 <p>Die JSON-LD-Daten sollten zusätzlich direkt im HTML der Startseite stehen.</p>
+<h2>Unterstützer und Rückmeldungen</h2>
+<p>Die anonymisierte, vom Autor bereitgestellte Buy-Me-a-Coffee-Kopie steht in <code>unterstuetzer.md</code> und <code>unterstuetzer.html</code>. Der Originalprofil ist dort direkt verlinkt. Die angegebene Profilzahl (59) und die 62 übermittelten Listeneinträge werden getrennt ausgewiesen. Kommentare und Antworten bleiben unverändert; die Profilzahl wird nicht automatisch aktualisiert.</p>
   </main>
   <footer>
+    <p>Aktualisiert am: <time datetime="2026-10-10">10.10.2026</time></p>
     <p>Ralf-Peter Kleinert / ComputerRalle / DIGITAL-easy · <a href="https://knowledge.ralf-peter-kleinert.de/README.md">Markdown-Quelle</a></p>
   </footer>
 </body>

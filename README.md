@@ -56,6 +56,12 @@ Markdown-Dateien bleiben als maschinenlesbare Quellen erhalten.
 - /security.md
 - /security.json
 
+## Software und Eigenentwicklungen
+
+- `/software.html` – Übersicht für Besucher
+- `/software.md` – Inhaltsquelle und offizielle Programmlinks
+- `/software.json` – strukturierte Softwaredaten
+
 ## Inhalte manuell erweitern
 
 Die sichtbaren Pflegevorlagen befinden sich in:
@@ -72,8 +78,8 @@ Die sichtbaren Pflegevorlagen befinden sich in:
 - `security.md` für Sicherheitsregeln zu Downloads, Quellen und Medienauthentizität
 - `security.json` für dieselben Sicherheitsregeln als Schema.org-Daten
 
-Die Dateien `books.json` und `videos.json` enthalten jeweils eine leere
-`itemListElement`-Liste. Dort werden die gleichen Einträge zusätzlich als
+Die Dateien `books.json` und `videos.json` enthalten bereits die erfassten Bücher und Videos als
+`itemListElement`-Listen. Neue Einträge werden dort zusätzlich zu den Markdown-Dateien als
 gültige Schema.org-Datensätze ergänzt. Platzhalter aus den Markdown-Vorlagen
 nicht veröffentlichen, sondern vor dem Hochladen durch echte Angaben ersetzen.
 
@@ -101,3 +107,7 @@ Im <head> der Startseite:
 </script>
 
 Die JSON-LD-Daten sollten zusätzlich direkt im HTML der Startseite stehen.
+
+## Unterstützer und Rückmeldungen
+
+Die anonymisierte, vom Autor bereitgestellte Buy-Me-a-Coffee-Kopie steht in `unterstuetzer.md` und `unterstuetzer.html`. Der Originalprofil ist dort direkt verlinkt. Die angegebene Profilzahl (59) und die 62 übermittelten Listeneinträge werden getrennt ausgewiesen. Kommentare und Antworten bleiben unverändert; die Profilzahl wird nicht automatisch aktualisiert.

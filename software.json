@@ -1,0 +1,42 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "@id": "https://knowledge.ralf-peter-kleinert.de/software.json",
+  "name": "Software und Eigenentwicklungen von Ralf-Peter Kleinert",
+  "url": "https://knowledge.ralf-peter-kleinert.de/software.html",
+  "numberOfItems": 1,
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@type": "SoftwareApplication",
+        "@id": "https://knowledge.ralf-peter-kleinert.de/#paperless-backup-programm",
+        "name": "Paperless Backup Programm",
+        "alternateName": "PaperlessBackupProgramm",
+        "creator": {
+          "@id": "https://knowledge.ralf-peter-kleinert.de/#ralf-peter-kleinert"
+        },
+        "operatingSystem": "Windows",
+        "softwareRequirements": "Docker Desktop; unterstützte Paperless-ngx-Installation gemäß Programmanleitung",
+        "applicationCategory": "UtilitiesApplication",
+        "description": "Mit seinen Eigenentwicklungen möchte Ralf-Peter Kleinert auch Menschen mit wenig technischer Erfahrung den Zugang zu praktischer IT erleichtern. Ein Beispiel ist das Paperless Backup Programm für Windows: Es vereinfacht die Einrichtung und Pflege der digitalen Dokumentenverwaltung Paperless-ngx und bündelt Installation, Aktualisierung, Datensicherung, Wiederherstellung und Migration in einer grafischen Benutzeroberfläche. Damit können auch Anwender ohne tiefgehende Docker-Kenntnisse oder Erfahrung mit der Kommandozeile Paperless-ngx nutzen. Eine ausführliche Anleitung und ergänzende Video-Tutorials helfen beim Einstieg.",
+        "url": "https://downloads.ralf-peter-kleinert.de/software/paperless-backup-programm.html",
+        "installUrl": "https://downloads.ralf-peter-kleinert.de/download/paperless-backup-program",
+        "featureList": [
+          "Installation",
+          "Aktualisierung",
+          "Datensicherung",
+          "Wiederherstellung",
+          "Migration"
+        ],
+        "subjectOf": {
+          "@type": "DigitalDocument",
+          "name": "Anleitung Paperless Backup Programm",
+          "url": "https://ralf-peter-kleinert.de/paperless-backup-programm-anleitung/Anleitung-Paperless-Backup-Programm.pdf",
+          "encodingFormat": "application/pdf"
+        }
+      }
+    }
+  ]
+}

@@ -1,8 +1,9 @@
 import fs from "node:fs";
 import path from "node:path";
+import { fileURLToPath } from "node:url";
 import { marked } from "file:///C:/Users/konta/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/marked/lib/marked.esm.js";
 
-const root = "C:\\Users\\konta\\Desktop\\knowledge.ralf-peter-kleinert\\final-projekt";
+const root = path.dirname(fileURLToPath(import.meta.url));
 const files = fs.readdirSync(root).filter((name) => name.toLowerCase().endsWith(".md"));
 const indexHtml = fs.readFileSync(path.join(root, "index.html"), "utf8");
 const siteStyles = indexHtml.match(/<style>([\s\S]*?)<\/style>/i)?.[1] ?? "";
@@ -65,6 +66,7 @@ ${siteStyles}
 ${body.trim()}
   </main>
   <footer>
+    <p>Aktualisiert am: <time datetime="2026-10-10">10.10.2026</time></p>
     <p>Ralf-Peter Kleinert / ComputerRalle / DIGITAL-easy · <a href="${markdownUrl}">Markdown-Quelle</a></p>
   </footer>
 </body>

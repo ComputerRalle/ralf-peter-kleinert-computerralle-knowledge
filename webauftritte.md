@@ -4,7 +4,7 @@
 <p align="center"><img src="https://knowledge.ralf-peter-kleinert.de/computerralle-Logo-Final-2026_4000x4000-2048x2048.webp" alt="ComputerRalle-Logo von Ralf-Peter Kleinert und DIGITAL-easy" style="display: block; width: 25%; height: auto; margin: 0 auto;"></p>
 
 
-Diese Übersicht entspricht den 16 Einträgen in `webauftritte.json`. Aufgeführt sind ausschließlich Auftritte, die Ralf-Peter Kleinert, ComputerRalle oder DIGITAL-easy eindeutig zugeordnet werden konnten.
+Diese Übersicht entspricht den 17 Einträgen in `webauftritte.json`. Aufgeführt sind ausschließlich Auftritte, die Ralf-Peter Kleinert, ComputerRalle oder DIGITAL-easy eindeutig zugeordnet werden konnten.
 
 <!-- /////////////////////////////////////////////////////// -->
 <!-- Webauftritte -->
@@ -112,3 +112,13 @@ webauftritte.json ergänzen und alle folgenden Positionsnummern anpassen.
 - Beschreibung: [kurze eindeutige Beschreibung]
 - Status: [offiziell/verifiziert]
 -->
+
+## Unterstützung und Wertschätzung
+
+### 17. ComputerRalle auf Buy Me a Coffee
+
+Wer die Anleitungen, Videos und Software von ComputerRalle hilfreich findet, kann die Arbeit über Buy Me a Coffee freiwillig unterstützen. Solche Beiträge sind eine persönliche Form der Wertschätzung und helfen dabei, weitere verständliche Inhalte zu erstellen und eigene Software weiterzuentwickeln.
+
+- [ComputerRalle unterstützen](https://buymeacoffee.com/computerralle)
+
+- [Unterstützer-Übersicht und Rückmeldungen](unterstuetzer.html)
