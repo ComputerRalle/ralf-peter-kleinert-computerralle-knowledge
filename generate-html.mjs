@@ -4,7 +4,7 @@ import { fileURLToPath } from "node:url";
 import { marked } from "file:///C:/Users/konta/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/marked/lib/marked.esm.js";
 
 const root = path.dirname(fileURLToPath(import.meta.url));
-const files = fs.readdirSync(root).filter((name) => name.toLowerCase().endsWith(".md"));
+const files = fs.readdirSync(root).filter((name) => name.toLowerCase().endsWith(".md") && name.toLowerCase() !== "agents.md");
 const indexHtml = fs.readFileSync(path.join(root, "index.html"), "utf8");
 const siteStyles = indexHtml.match(/<style>([\s\S]*?)<\/style>/i)?.[1] ?? "";
 const siteNavigation = indexHtml.match(/<nav class="main-nav"[\s\S]*?<\/nav>/i)?.[0] ?? "";
