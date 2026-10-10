@@ -1,6 +1,9 @@
 {
   "@context": "https://schema.org",
-  "@type": "ItemList",
+  "@type": [
+    "ItemList",
+    "CreativeWork"
+  ],
   "@id": "https://knowledge.ralf-peter-kleinert.de/software.json",
   "name": "Software und Eigenentwicklungen von Ralf-Peter Kleinert",
   "url": "https://knowledge.ralf-peter-kleinert.de/software.html",
@@ -38,5 +41,6 @@
         }
       }
     }
-  ]
+  ],
+  "dateModified": "2026-10-10"
 }

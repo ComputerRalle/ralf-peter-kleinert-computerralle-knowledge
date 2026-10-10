@@ -24,5 +24,10 @@
     "https://blog.ralf-peter-kleinert.de/",
     "https://downloads.ralf-peter-kleinert.de/",
     "https://www.youtube.com/@ComputerRalle"
-  ]
+  ],
+  "subjectOf": {
+    "@id": "https://knowledge.ralf-peter-kleinert.de/organization.html",
+    "@type": "WebPage",
+    "dateModified": "2026-10-10"
+  }
 }

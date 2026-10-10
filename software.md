@@ -19,3 +19,5 @@ Das Programm ist für Paperless-ngx unter Windows mit Docker Desktop vorgesehen.
 Die strukturierten Softwaredaten stehen in [software.json](software.json).
 
 - [Unterstützer-Übersicht und Rückmeldungen](unterstuetzer.html)
+
+Aktualisiert am: 10.10.2026

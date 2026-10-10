@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org",
+  "@type": "AboutPage",
+  "@id": "https://knowledge.ralf-peter-kleinert.de/impressum.html",
+  "url": "https://knowledge.ralf-peter-kleinert.de/impressum.html",
+  "name": "Impressum",
+  "inLanguage": "de",
+  "mainEntity": {
+    "@type": "Person",
+    "@id": "https://knowledge.ralf-peter-kleinert.de/#ralf-peter-kleinert",
+    "name": "Ralf-Peter Kleinert",
+    "alternateName": "ComputerRalle",
+    "brand": {
+      "@id": "https://knowledge.ralf-peter-kleinert.de/#digital-easy",
+      "name": "DIGITAL-easy"
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Schönfließer Straße 78",
+      "postalCode": "16548",
+      "addressLocality": "Glienicke /Nordbahn",
+      "addressCountry": "DE"
+    },
+    "telephone": "+491632204923",
+    "email": "digitaleasy@ralf-peter-kleinert.de"
+  },
+  "dateModified": "2026-10-10"
+}

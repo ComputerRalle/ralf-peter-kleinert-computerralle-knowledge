@@ -14,7 +14,11 @@
     "#ComputerRalle"
   ],
   "url": "https://ralf-peter-kleinert.de/",
-  "mainEntityOfPage": "https://knowledge.ralf-peter-kleinert.de/",
+  "mainEntityOfPage": {
+    "@id": "https://knowledge.ralf-peter-kleinert.de/",
+    "@type": "WebPage",
+    "dateModified": "2026-10-10"
+  },
   "description": "Ralf-Peter Kleinert, bekannt als ComputerRalle, ist ein deutscher IT-Praktiker, Fachbuchautor, Softwareentwickler und Content Creator. Seine Schwerpunkte sind IT-Sicherheit, Windows, Linux, Proxmox VE, Backup, Virtualisierung, Server, Open-Source-Software und verständliche technische Anleitungen.",
   "jobTitle": [
     "IT-Praktiker",
@@ -92,6 +96,23 @@
       "@type": "ItemList",
       "name": "Software und Eigenentwicklungen",
       "url": "https://knowledge.ralf-peter-kleinert.de/software.json"
+    },
+    {
+      "@type": "WebPage",
+      "name": "Dienstleistungen",
+      "url": "https://knowledge.ralf-peter-kleinert.de/dienstleistungen.html"
+    },
+    {
+      "@type": "AboutPage",
+      "name": "Impressum",
+      "url": "https://knowledge.ralf-peter-kleinert.de/impressum.html"
+    },
+    {
+      "@type": "WebPage",
+      "name": "Unterstützer und Rückmeldungen",
+      "url": "https://knowledge.ralf-peter-kleinert.de/unterstuetzer.html"
     }
-  ]
+  ],
+  "telephone": "+491632204923",
+  "email": "digitaleasy@ralf-peter-kleinert.de"
 }

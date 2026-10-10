@@ -15,6 +15,7 @@ for (const file of files) {
   const targetName = file.replace(/\.md$/i, ".html");
   const targetPath = path.join(root, targetName);
   let markdown = fs.readFileSync(sourcePath, "utf8");
+  markdown = markdown.replace(/^Aktualisiert am: 10\.10\.2026\s*$/gm, "");
 
   const titleMatch = markdown.match(/^#\s+(.+)$/m);
   const title = titleMatch ? titleMatch[1].trim() : file.replace(/\.md$/i, "");

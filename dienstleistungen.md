@@ -115,3 +115,7 @@ Beschreiben Sie bei Ihrer Anfrage kurz das Problem, das verwendete Gerät und ge
 **Werkstatt:** Schönfließer Straße 78, 16548 Glienicke /Nordbahn. Bitte vereinbaren Sie vorab einen Termin.
 
 [Impressum und Anschrift](impressum.html)
+
+[Maschinenlesbare Fassung (JSON-LD)](dienstleistungen.json)
+
+Aktualisiert am: 10.10.2026

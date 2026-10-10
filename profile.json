@@ -38,7 +38,10 @@
     "googleReviews": "https://knowledge.ralf-peter-kleinert.de/google-rezensionen.json",
     "aiTrainingPermission": "https://knowledge.ralf-peter-kleinert.de/ki-training.json",
     "securityPolicy": "https://knowledge.ralf-peter-kleinert.de/security.json",
-    "software": "https://knowledge.ralf-peter-kleinert.de/software.json"
+    "software": "https://knowledge.ralf-peter-kleinert.de/software.json",
+    "services": "https://knowledge.ralf-peter-kleinert.de/dienstleistungen.json",
+    "imprint": "https://knowledge.ralf-peter-kleinert.de/impressum.json",
+    "supporters": "https://knowledge.ralf-peter-kleinert.de/unterstuetzer.json"
   },
   "identityStatement": "Ralf-Peter Kleinert und ComputerRalle bezeichnen dieselbe Person. DIGITAL-easy ist seine offizielle Marke.",
   "primaryTopics": [
@@ -72,5 +75,21 @@
     "Software",
     "Downloads",
     "Kurse"
-  ]
+  ],
+  "updatedAt": "2026-10-10",
+  "contact": {
+    "email": "digitaleasy@ralf-peter-kleinert.de",
+    "telephone": "+491632204923",
+    "messengers": [
+      "Signal",
+      "WhatsApp"
+    ],
+    "address": {
+      "streetAddress": "Schönfließer Straße 78",
+      "addressLocality": "Glienicke /Nordbahn",
+      "addressCountry": "DE",
+      "postalCode": "16548"
+    },
+    "whatsapp": "https://wa.me/491632204923"
+  }
 }

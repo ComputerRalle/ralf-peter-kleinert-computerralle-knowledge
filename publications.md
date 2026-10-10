@@ -216,3 +216,5 @@ Die folgenden Veröffentlichungen auf Calaméo wurden von Ralf-Peter Kleinert pe
 - [Calaméo-Veröffentlichung 6](https://www.calameo.com/read/00759064045b736311bfa)
 - [Calaméo-Veröffentlichung 7](https://www.calameo.com/read/00759064080f0f740328a)
 - [Calaméo-Veröffentlichung 8](https://www.calameo.com/read/007590640e09e8c81f9b8)
+
+Aktualisiert am: 10.10.2026

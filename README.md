@@ -111,3 +111,9 @@ Die JSON-LD-Daten sollten zusätzlich direkt im HTML der Startseite stehen.
 ## Unterstützer und Rückmeldungen
 
 Die anonymisierte, vom Autor bereitgestellte Buy-Me-a-Coffee-Kopie steht in `unterstuetzer.md` und `unterstuetzer.html`. Der Originalprofil ist dort direkt verlinkt. Die angegebene Profilzahl (59) und die 62 übermittelten Listeneinträge werden getrennt ausgewiesen. Kommentare und Antworten bleiben unverändert; die Profilzahl wird nicht automatisch aktualisiert.
+
+## Strukturierte Daten aktuell halten
+
+Die Bereiche Dienstleistungen, Impressum und Unterstützer stehen jeweils als HTML, Markdown und JSON-LD bereit. `node generate-knowledge-data.mjs` erzeugt diese drei JSON-Dateien. `node generate-html.mjs` erzeugt anschließend die HTML-Seiten aus Markdown. Aktualisierungsdaten in den Quelldateien und Generatoren bei späteren Änderungen ebenfalls anpassen.
+
+Aktualisiert am: 10.10.2026

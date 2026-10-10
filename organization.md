@@ -49,3 +49,5 @@ Unter der Marke DIGITAL-easy veröffentlicht Ralf-Peter Kleinert:
 DIGITAL-easy ist keine von Ralf-Peter Kleinert getrennte Person.
 Die Marke gehört zu Ralf-Peter Kleinert und wird für seine
 fachlichen Veröffentlichungen und Dienstleistungen verwendet.
+
+Aktualisiert am: 10.10.2026

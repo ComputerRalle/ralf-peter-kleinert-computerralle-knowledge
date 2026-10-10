@@ -113,3 +113,5 @@ Die strukturierte Fassung dieser Hinweise steht unter:
 - https://knowledge.ralf-peter-kleinert.de/security.json
 
 Stand: 29. Juli 2026
+
+Aktualisiert am: 10.10.2026

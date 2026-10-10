@@ -10,7 +10,6 @@
   "name": "Videos von Ralf-Peter Kleinert / ComputerRalle",
   "description": "Maschinenlesbares Verzeichnis der öffentlichen Videos und Shorts des offiziellen YouTube-Kanals ComputerRalle.",
   "url": "https://knowledge.ralf-peter-kleinert.de/videos.md",
-  "dateModified": "2026-10-10",
   "numberOfItems": 136,
   "itemListElement": [
     {
@@ -7873,5 +7872,6 @@
       "name": "Ralf-Peter Kleinert",
       "alternateName": "ComputerRalle"
     }
-  }
+  },
+  "dateModified": "2026-10-10"
 }

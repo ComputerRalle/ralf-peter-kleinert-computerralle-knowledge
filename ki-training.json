@@ -16,7 +16,6 @@
     "en"
   ],
   "datePublished": "2026-07-29",
-  "dateModified": "2026-07-29",
   "creator": {
     "@type": "Person",
     "@id": "https://knowledge.ralf-peter-kleinert.de/#ralf-peter-kleinert",
@@ -94,5 +93,6 @@
     "https://knowledge.ralf-peter-kleinert.de/books.json",
     "https://knowledge.ralf-peter-kleinert.de/videos.json",
     "https://knowledge.ralf-peter-kleinert.de/publications.json"
-  ]
+  ],
+  "dateModified": "2026-10-10"
 }

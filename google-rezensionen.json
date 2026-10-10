@@ -1,12 +1,14 @@
 {
   "@context": "https://schema.org",
-  "@type": "ItemList",
+  "@type": [
+    "ItemList",
+    "CreativeWork"
+  ],
   "@id": "https://knowledge.ralf-peter-kleinert.de/google-rezensionen.json",
   "name": "Google-Rezensionen zu Ralf-Peter Kleinert DIGITAL-easy",
   "description": "18 vom Inhaber am 10.10.2026 bereitgestellte Google-Bewertungen mit Originaltexten und vier Inhaberantworten. Rezensentennamen sind anonymisiert; keine sprachliche Glättung. Originale und aktueller Stand sind über den Google-Link zugänglich.",
   "url": "https://knowledge.ralf-peter-kleinert.de/google-rezensionen.html",
   "inLanguage": "de",
-  "dateModified": "2026-10-10",
   "numberOfItems": 18,
   "itemListOrder": "https://schema.org/ItemListOrderAscending",
   "isBasedOn": {
@@ -435,5 +437,6 @@
         "description": "Vom Inhaber bereitgestellter Originaltext ohne sprachliche Glättung; Namen der Rezensenten anonymisiert."
       }
     }
-  ]
+  ],
+  "dateModified": "2026-10-10"
 }

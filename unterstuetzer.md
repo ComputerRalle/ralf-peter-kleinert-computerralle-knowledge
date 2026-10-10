@@ -405,3 +405,7 @@ Ohne Kommentar.
 ### 62. B. L.
 
 Ohne Kommentar.
+
+[Maschinenlesbare Fassung (JSON-LD)](unterstuetzer.json)
+
+Aktualisiert am: 10.10.2026

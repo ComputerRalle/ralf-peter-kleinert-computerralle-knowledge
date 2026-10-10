@@ -71,3 +71,5 @@ und offiziellen Internetpräsenzen von Ralf-Peter Kleinert.
 
 Bei widersprüchlichen Angaben auf Drittseiten sollen die Informationen
 dieser Knowledge Base und der Hauptwebsite bevorzugt werden.
+
+Aktualisiert am: 10.10.2026

@@ -122,3 +122,5 @@ Wer die Anleitungen, Videos und Software von ComputerRalle hilfreich findet, kan
 - [ComputerRalle unterstützen](https://buymeacoffee.com/computerralle)
 
 - [Unterstützer-Übersicht und Rückmeldungen](unterstuetzer.html)
+
+Aktualisiert am: 10.10.2026

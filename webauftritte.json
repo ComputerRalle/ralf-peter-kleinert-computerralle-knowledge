@@ -7,12 +7,14 @@
     "contentUrl": "https://knowledge.ralf-peter-kleinert.de/computerralle-Logo-Final-2026_4000x4000-2048x2048.webp",
     "caption": "ComputerRalle-Logo von Ralf-Peter Kleinert und DIGITAL-easy"
   },
-  "@type": "ItemList",
+  "@type": [
+    "ItemList",
+    "CreativeWork"
+  ],
   "name": "Offizielle Webauftritte von Ralf-Peter Kleinert, ComputerRalle und DIGITAL-easy",
   "description": "Maschinenlesbares Verzeichnis der eindeutig zugeordneten Websites, Profile, Plattformauftritte und Normdaten von Ralf-Peter Kleinert, auch bekannt als ComputerRalle, und seiner Marke DIGITAL-easy.",
   "url": "https://knowledge.ralf-peter-kleinert.de/webauftritte.json",
   "inLanguage": "de",
-  "dateModified": "2026-10-10",
   "numberOfItems": 17,
   "itemListOrder": "https://schema.org/ItemListOrderAscending",
   "about": {
@@ -268,5 +270,6 @@
         "description": "Offizielle Möglichkeit zur freiwilligen Unterstützung der Arbeit von ComputerRalle."
       }
     }
-  ]
+  ],
+  "dateModified": "2026-10-10"
 }

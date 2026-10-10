@@ -1,0 +1,135 @@
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "https://knowledge.ralf-peter-kleinert.de/dienstleistungen.html",
+  "name": "Dienstleistungen von Ralf-Peter Kleinert / ComputerRalle / DIGITAL-easy",
+  "inLanguage": "de",
+  "url": "https://knowledge.ralf-peter-kleinert.de/dienstleistungen.html",
+  "description": "IT-Beratung, Computerreparatur, Datenrettung, Installation, Datensicherung und lokale KI-Systeme ohne Cloudzwang für Privatpersonen und kleine Unternehmen.",
+  "mainEntity": {
+    "@type": "OfferCatalog",
+    "name": "Dienstleistungen",
+    "numberOfItems": 7,
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "@id": "https://knowledge.ralf-peter-kleinert.de/dienstleistungen.html#leistung-1",
+          "name": "Telefonische Beratung und Hilfe bei Computerproblemen",
+          "description": "Wenn der Computer nicht wie erwartet funktioniert oder Sie bei einer technischen Entscheidung Unterstützung benötigen, helfe ich Ihnen, das Problem einzuordnen und eine passende Lösung zu finden.\n\n- Beratung zu IT-Sicherheit und zum Schutz von Computern und persönlichen Daten\n- Hilfe bei Fehlermeldungen, Startproblemen, langsamen Systemen und Softwareproblemen\n- Beratung zur Absicherung von Windows- und Linux-Systemen\n- Unterstützung bei der Auswahl geeigneter Software und passender Hardware\n- Verständliche Erklärungen und praktische Hilfestellung für Einsteiger und erfahrene Anwender\n- Unterstützung per Fernwartung nach Absprache und mit Ihrer Zustimmung",
+          "provider": {
+            "@id": "https://knowledge.ralf-peter-kleinert.de/#ralf-peter-kleinert"
+          },
+          "url": "https://knowledge.ralf-peter-kleinert.de/dienstleistungen.html"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "@id": "https://knowledge.ralf-peter-kleinert.de/dienstleistungen.html#leistung-2",
+          "name": "Social-Media-Konten schützen und Zugriffsprobleme klären",
+          "description": "Ich berate Sie zur Absicherung Ihrer Social-Media-Konten und unterstütze Sie, wenn der Zugriff verloren gegangen ist oder ein Konto möglicherweise übernommen wurde. Gemeinsam prüfen wir die verfügbaren Wiederherstellungswege des jeweiligen Anbieters und die nächsten sinnvollen Schritte.\n\n- Beratung bei verlorenen Zugangsdaten, gesperrten Konten und Verdacht auf Kontoübernahme\n- Unterstützung bei den offiziellen Verfahren zur Kontowiederherstellung\n- Absicherung der mit dem Konto verbundenen E-Mail-Adresse\n- Einrichtung sicherer Passwörter, Passwortmanager und Zwei-Faktor-Authentifizierung\n- Vorsorge durch Wiederherstellungscodes und aktuelle Kontaktdaten\n- Hinweise zum Erkennen von Phishing und betrügerischen Nachrichten\n\nOb ein verlorener Zugang wiederhergestellt werden kann, hängt unter anderem von den Nachweisen und den Verfahren des Plattformbetreibers ab.",
+          "provider": {
+            "@id": "https://knowledge.ralf-peter-kleinert.de/#ralf-peter-kleinert"
+          },
+          "url": "https://knowledge.ralf-peter-kleinert.de/dienstleistungen.html"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "@id": "https://knowledge.ralf-peter-kleinert.de/dienstleistungen.html#leistung-3",
+          "name": "Computer- und Laptop-Reparatur",
+          "description": "Ich prüfe und repariere defekte Computer und Laptops für Privatpersonen und kleine Unternehmen. Die Fehlersuche, den Austausch geeigneter Komponenten und die anschließende Funktionsprüfung übernehme ich in meiner eigenen Werkstatt.\n\n- Diagnose von Hardwarefehlern und instabilen Systemen\n- Austausch defekter oder Aufrüstung geeigneter Hardwarekomponenten\n- Einbau und Austausch von Festplatten, SSDs und Arbeitsspeicher\n- Prüfung bei Startproblemen, Überhitzung und unerwarteten Abstürzen\n- Reparatur und Wiederherstellung der Betriebsbereitschaft nach Absprache",
+          "provider": {
+            "@id": "https://knowledge.ralf-peter-kleinert.de/#ralf-peter-kleinert"
+          },
+          "url": "https://knowledge.ralf-peter-kleinert.de/dienstleistungen.html"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "@id": "https://knowledge.ralf-peter-kleinert.de/dienstleistungen.html#leistung-4",
+          "name": "Datenrettung und Datenübernahme",
+          "description": "Wenn ein Computer oder Laptop nicht mehr startet, sind die darauf gespeicherten Daten nicht zwangsläufig verloren. Ich prüfe, ob sich Dokumente, Fotos und andere wichtige Dateien von den vorhandenen Festplatten oder SSDs auslesen und auf ein anderes Speichermedium übertragen lassen.\n\n- Datenrettung aus defekten oder nicht mehr startenden Computern und Laptops\n- Auslesen zugänglicher Festplatten und SSDs nach einem Defekt des Rechners\n- Sicherung vorhandener Daten vor Reparaturen oder Neuinstallationen\n- Übernahme von Dateien auf einen neuen Computer oder einen Ersatzdatenträger\n- Unterstützung bei der Wiederherstellung aus vorhandenen Backups\n\nDie Möglichkeiten einer Datenrettung hängen vom Zustand des Datenträgers ab. Bei einem Defekt der Festplatte oder SSD klären wir zunächst, welche weiteren Schritte sinnvoll sind.",
+          "provider": {
+            "@id": "https://knowledge.ralf-peter-kleinert.de/#ralf-peter-kleinert"
+          },
+          "url": "https://knowledge.ralf-peter-kleinert.de/dienstleistungen.html"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "@id": "https://knowledge.ralf-peter-kleinert.de/dienstleistungen.html#leistung-5",
+          "name": "Betriebssysteme und Software installieren und reparieren",
+          "description": "Ich helfe bei der Installation, Einrichtung und Fehlerbehebung von Betriebssystemen und Programmen. Dazu gehört auch die Unterstützung beim Wechsel auf einen neuen Computer oder bei der Umstellung auf ein anderes System.\n\n- Installation und Einrichtung von Windows und Linux\n- Unterstützung beim Wechsel von Windows zu Linux\n- Installation und Konfiguration von Programmen und Gerätetreibern\n- Behebung von Softwareproblemen und Fehlern bei Aktualisierungen\n- Einrichtung von E-Mail, Browsern und benötigten Anwendungen\n- Systemumzug und Übernahme vorhandener Daten und Einstellungen, soweit möglich",
+          "provider": {
+            "@id": "https://knowledge.ralf-peter-kleinert.de/#ralf-peter-kleinert"
+          },
+          "url": "https://knowledge.ralf-peter-kleinert.de/dienstleistungen.html"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "@id": "https://knowledge.ralf-peter-kleinert.de/dienstleistungen.html#leistung-6",
+          "name": "Datensicherung und Vorsorge",
+          "description": "Eine passende Datensicherung hilft, nach einem Geräteausfall oder einer versehentlichen Löschung wieder arbeitsfähig zu werden. Ich unterstütze Sie dabei, eine verständliche und zu Ihrem Alltag passende Sicherung einzurichten.\n\n- Beratung zu Backup-Lösungen für private Daten und kleine Unternehmen\n- Einrichtung regelmäßiger Datensicherungen\n- Unterstützung bei der Auswahl geeigneter Sicherungsmedien\n- Prüfung der Wiederherstellung aus vorhandenen Sicherungen\n- Beratung zu Updates, Zugriffsschutz und einem sicheren Umgang mit dem Computer",
+          "provider": {
+            "@id": "https://knowledge.ralf-peter-kleinert.de/#ralf-peter-kleinert"
+          },
+          "url": "https://knowledge.ralf-peter-kleinert.de/dienstleistungen.html"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "@id": "https://knowledge.ralf-peter-kleinert.de/dienstleistungen.html#leistung-7",
+          "name": "Lokale KI-Systeme planen, aufbauen und in Betrieb nehmen",
+          "description": "Sie möchten künstliche Intelligenz auf dem eigenen Computer oder im eigenen Unternehmen nutzen, ohne Ihre Eingaben und Dokumente für die Verarbeitung an einen Cloud-Dienst zu übertragen? Ich unterstütze Sie bei der Planung, dem Aufbau, der Installation und der Inbetriebnahme eines lokalen KI-Systems – vom passenden Rechner bis zur verständlichen Einweisung.\n\nGemeinsam klären wir, welche Aufgaben die KI übernehmen soll, welche Hardware bereits vorhanden ist und welche Leistung tatsächlich benötigt wird. Daraus entsteht eine auf Ihren Einsatzzweck und Ihr Budget abgestimmte Lösung, beispielsweise mit einer NVIDIA-Grafikkarte und LM Studio für den Betrieb lokaler Sprachmodelle.\n\n- **Planung und Beratung:** Anforderungen klären, Einsatzmöglichkeiten besprechen und eine passende Kombination aus Hardware, Software und KI-Modellen auswählen\n- **Hardwareauswahl und Aufbau:** Geeignete NVIDIA-GPU, Grafikspeicher (VRAM), Arbeitsspeicher, Prozessor und SSD-Speicher aufeinander abstimmen; Stromversorgung und Kühlung berücksichtigen\n- **Installation und Einrichtung:** Betriebssystem, benötigte Treiber und lokale KI-Software wie LM Studio installieren und konfigurieren\n- **Modellauswahl:** Sprachmodelle passend zu Hardware, Sprache, Aufgaben und Nutzungsbedingungen auswählen und lokal einrichten\n- **Praktische Anwendungen:** Unterstützung beim lokalen Chatten, Entwerfen und Überarbeiten von Texten sowie beim Zusammenfassen und Bearbeiten eigener Dokumente, soweit das gewählte Modell und die Software dies unterstützen\n- **Inbetriebnahme und Prüfung:** GPU-Beschleunigung, Speicherbedarf und Antwortgeschwindigkeit anhand typischer Aufgaben prüfen und die Einstellungen anpassen\n- **Betrieb im lokalen Netzwerk:** Auf Wunsch Zugriff für weitere eigene Geräte einrichten und durch geeignete Zugriffs- und Firewall-Einstellungen absichern\n- **Einweisung und Pflege:** Bedienung, Modellwechsel, Aktualisierungen und Sicherung der Konfiguration verständlich erklären\n\nZiel ist ein System ohne Cloudzwang: Die KI-Berechnungen erfolgen auf Ihrer eigenen Hardware. Für das anfängliche Herunterladen der Software und Modelle sowie spätere Updates kann eine Internetverbindung erforderlich sein. Nach der Einrichtung können geeignete lokale Modelle in LM Studio auch offline verwendet werden. Bei der Konfiguration achten wir darauf, dass für die vorgesehenen Aufgaben lokale Modelle eingesetzt werden.\n\nWelche Modellgröße und Arbeitsgeschwindigkeit sinnvoll erreichbar sind, hängt vor allem von der verfügbaren Hardware und dem Einsatzzweck ab. Deshalb steht eine realistische Planung vor dem Kauf einzelner Komponenten.\n\nWeitere technische Informationen: [LM Studio – Offlinebetrieb](https://lmstudio.ai/docs/app/offline) und [Systemanforderungen](https://lmstudio.ai/docs/app/system-requirements).",
+          "provider": {
+            "@id": "https://knowledge.ralf-peter-kleinert.de/#ralf-peter-kleinert"
+          },
+          "url": "https://knowledge.ralf-peter-kleinert.de/dienstleistungen.html"
+        }
+      }
+    ]
+  },
+  "relatedLink": [
+    "https://knowledge.ralf-peter-kleinert.de/google-rezensionen.html",
+    "https://knowledge.ralf-peter-kleinert.de/unterstuetzer.html",
+    "https://maps.app.goo.gl/waQU48hJMvz6kLyK8",
+    "https://buymeacoffee.com/computerralle"
+  ],
+  "author": {
+    "@type": "Person",
+    "@id": "https://knowledge.ralf-peter-kleinert.de/#ralf-peter-kleinert",
+    "name": "Ralf-Peter Kleinert",
+    "telephone": "+491632204923",
+    "email": "digitaleasy@ralf-peter-kleinert.de",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Schönfließer Straße 78",
+      "postalCode": "16548",
+      "addressLocality": "Glienicke /Nordbahn",
+      "addressCountry": "DE"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+491632204923",
+      "email": "digitaleasy@ralf-peter-kleinert.de",
+      "contactType": "Anfragen zu Dienstleistungen; auch über Signal und WhatsApp",
+      "url": "https://wa.me/491632204923"
+    }
+  },
+  "dateModified": "2026-10-10"
+}

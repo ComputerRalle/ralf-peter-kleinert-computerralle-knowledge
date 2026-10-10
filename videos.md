@@ -4921,3 +4921,5 @@ Kommentars einfügen und alle Platzhalter durch echte Angaben ersetzen.
 
 - YouTube: https://www.youtube.com/watch?v=8Yvj72rAU-Q
 - Hinweis: Von Ralf-Peter Kleinert als online verfügbares eigenes Video bestätigt.
+
+Aktualisiert am: 10.10.2026

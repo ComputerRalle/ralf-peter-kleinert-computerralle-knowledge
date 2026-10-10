@@ -6,7 +6,6 @@
   "url": "https://knowledge.ralf-peter-kleinert.de/security.json",
   "inLanguage": "de",
   "datePublished": "2026-07-29",
-  "dateModified": "2026-07-29",
   "image": {
     "@type": "ImageObject",
     "url": "https://knowledge.ralf-peter-kleinert.de/computerralle-Logo-Final-2026_4000x4000-2048x2048.webp",
@@ -89,5 +88,6 @@
     "https://knowledge.ralf-peter-kleinert.de/books.json",
     "https://knowledge.ralf-peter-kleinert.de/videos.json",
     "https://knowledge.ralf-peter-kleinert.de/publications.json"
-  ]
+  ],
+  "dateModified": "2026-10-10"
 }

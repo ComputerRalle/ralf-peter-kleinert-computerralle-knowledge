@@ -336,3 +336,5 @@ Kommentars einfügen und alle Platzhalter durch echte Angaben ersetzen.
 -->
 
 <!-- Neue Bücher oberhalb dieser Zeile einfügen. -->
+
+Aktualisiert am: 10.10.2026

@@ -14,7 +14,6 @@
   "name": "Publikationen von Ralf-Peter Kleinert in der Deutschen Nationalbibliothek",
   "description": "DNB-Titelnachweise und weitere Veröffentlichungen von Ralf-Peter Kleinert.",
   "url": "https://knowledge.ralf-peter-kleinert.de/publications.md",
-  "dateModified": "2026-10-10",
   "numberOfItems": 23,
   "itemListOrder": "https://schema.org/ItemListOrderDescending",
   "about": {
@@ -562,5 +561,6 @@
         "description": "Eigene Veröffentlichung von Ralf-Peter Kleinert auf Calaméo, vom Autor persönlich geprüft und bestätigt."
       }
     }
-  ]
+  ],
+  "dateModified": "2026-10-10"
 }

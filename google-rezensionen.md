@@ -145,3 +145,4 @@ Zeitangabe in der bereitgestellten Kopie: vor einem Jahr.
 
 (Nur Sterne-Bewertung, kein Text vorhanden)
 
+Aktualisiert am: 10.10.2026

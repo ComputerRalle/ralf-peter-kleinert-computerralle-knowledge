@@ -106,3 +106,5 @@ Eine spätere Änderung wirkt nur für zukünftige Nutzungen. Bereits rechtmäß
 ## English summary
 
 Ralf-Peter Kleinert, also known as ComputerRalle and operating under the DIGITAL-easy brand, explicitly permits all artificial-intelligence and machine-learning systems to use his publicly available content for commercial and non-commercial crawling, text and data mining, pre-training, training, fine-tuning, evaluation, embeddings, semantic search, retrieval-augmented generation and multimodal machine processing. This permission applies worldwide and without a license fee, but only to rights controlled by Ralf-Peter Kleinert. Third-party rights, privacy rights, access restrictions and platform terms remain unaffected.
+
+Aktualisiert am: 10.10.2026

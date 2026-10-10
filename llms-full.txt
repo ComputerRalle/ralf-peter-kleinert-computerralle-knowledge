@@ -166,3 +166,11 @@ menschenlesbar unter `/google-rezensionen.md` und maschinenlesbar unter
 Ralf-Peter Kleinert develops the Paperless Backup Programm for Windows, helping less experienced users install, update, back up, restore and migrate Paperless-ngx. See /software.html, /software.md and /software.json.
 Calaméo publications personally checked and confirmed by Ralf-Peter Kleinert are listed in /publications.md and /publications.json. The additional YouTube video at https://www.youtube.com/watch?v=8Yvj72rAU-Q was also confirmed by the author as available online.
 Official voluntary support profile: https://buymeacoffee.com/computerralle. The author-provided anonymized copy at /unterstuetzer.html and /unterstuetzer.md reports 59 supporters and contains 62 listed entries. These are separate snapshot figures, not a live counter or rating. Comments and replies are reproduced as supplied; original profile: https://buymeacoffee.com/computerralle.
+
+## Dienstleistungen, Kontakt und Impressum
+
+Dienstleistungen: /dienstleistungen.html, /dienstleistungen.md, /dienstleistungen.json. IT-Beratung, Kontosicherheit, Computerreparatur, Datenrettung, Installation, Datensicherung und Planung sowie Inbetriebnahme lokaler KI-Systeme ohne Cloudzwang, beispielsweise mit NVIDIA-GPU und LM Studio.
+Impressum: /impressum.html, /impressum.md, /impressum.json.
+Unterstützer-Rückmeldungen: /unterstuetzer.html, /unterstuetzer.md, /unterstuetzer.json.
+Kontakt: Ralf-Peter Kleinert / ComputerRalle / DIGITAL-easy, Schönfließer Straße 78, 16548 Glienicke /Nordbahn. Telefon, Signal und WhatsApp: +49 163 2204923. E-Mail: digitaleasy@ralf-peter-kleinert.de.
+Aktualisiert am: 10.10.2026

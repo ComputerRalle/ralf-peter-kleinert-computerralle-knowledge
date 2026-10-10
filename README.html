@@ -210,6 +210,9 @@
             <li><a href="profile.json">Gesamtprofil (JSON)</a></li>
             <li><a href="books.json">Bücher (JSON-LD)</a></li>
             <li><a href="software.json">Software (JSON-LD)</a></li>
+            <li><a href="dienstleistungen.json">Dienstleistungen (JSON-LD)</a></li>
+            <li><a href="impressum.json">Impressum (JSON-LD)</a></li>
+            <li><a href="unterstuetzer.json">Unterstützer (JSON-LD)</a></li>
             <li><a href="videos.json">Videos (JSON-LD)</a></li>
             <li><a href="publications.json">Publikationen (JSON-LD)</a></li>
             <li><a href="webauftritte.json">Webauftritte (JSON-LD)</a></li>
@@ -351,6 +354,8 @@ alternative Bezeichnungen geführt, damit Suchmaschinen und KI-Systeme
 <p>Die JSON-LD-Daten sollten zusätzlich direkt im HTML der Startseite stehen.</p>
 <h2>Unterstützer und Rückmeldungen</h2>
 <p>Die anonymisierte, vom Autor bereitgestellte Buy-Me-a-Coffee-Kopie steht in <code>unterstuetzer.md</code> und <code>unterstuetzer.html</code>. Der Originalprofil ist dort direkt verlinkt. Die angegebene Profilzahl (59) und die 62 übermittelten Listeneinträge werden getrennt ausgewiesen. Kommentare und Antworten bleiben unverändert; die Profilzahl wird nicht automatisch aktualisiert.</p>
+<h2>Strukturierte Daten aktuell halten</h2>
+<p>Die Bereiche Dienstleistungen, Impressum und Unterstützer stehen jeweils als HTML, Markdown und JSON-LD bereit. <code>node generate-knowledge-data.mjs</code> erzeugt diese drei JSON-Dateien. <code>node generate-html.mjs</code> erzeugt anschließend die HTML-Seiten aus Markdown. Aktualisierungsdaten in den Quelldateien und Generatoren bei späteren Änderungen ebenfalls anpassen.</p>
   </main>
   <footer>
     <p><a href="dienstleistungen.html">Dienstleistungen</a> · <a href="impressum.html">Impressum</a></p>
