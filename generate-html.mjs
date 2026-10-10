@@ -66,6 +66,7 @@ ${siteStyles}
 ${body.trim()}
   </main>
   <footer>
+    <p><a href="dienstleistungen.html">Dienstleistungen</a> · <a href="impressum.html">Impressum</a></p>
     <p>Aktualisiert am: <time datetime="2026-10-10">10.10.2026</time></p>
     <p>Ralf-Peter Kleinert / ComputerRalle / DIGITAL-easy · <a href="${markdownUrl}">Markdown-Quelle</a></p>
   </footer>

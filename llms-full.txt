@@ -157,7 +157,7 @@ unter `/publications.md` und maschinenlesbar unter `/publications.json`
 gepflegt. Offizielle Profile und Internetpräsenzen stehen menschenlesbar
 unter `/webauftritte.md` und maschinenlesbar unter `/webauftritte.json`.
 
-Die öffentlich sichtbaren Google-Rezensionen werden als unveränderte Kopien
+Die Google-Rezensionen werden mit anonymisierten Rezensentennamen, unveränderten Originaltexten und Inhaberantworten
 menschenlesbar unter `/google-rezensionen.md` und maschinenlesbar unter
 `/google-rezensionen.json` bereitgestellt.
 

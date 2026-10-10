@@ -71,7 +71,7 @@ Die sichtbaren Pflegevorlagen befinden sich in:
 - `publications.md` für DNB-/GND-Nachweise und weitere Publikationen
 - `webauftritte.md` für die menschenlesbare Übersicht offizieller Websites und Profile
 - `webauftritte.json` für dieselben Auftritte als gültige Schema.org-Daten
-- `google-rezensionen.md` für die unverändert kopierten öffentlichen Google-Rezensionen
+- `google-rezensionen.md` für die anonymisierten Google-Rezensionen mit Originaltexten und Inhaberantworten
 - `google-rezensionen.json` für dieselben Rezensionen als Schema.org-Daten
 - `ki-training.md` für die ausführliche Erlaubnis zur Nutzung eigener Inhalte durch KI-Systeme
 - `ki-training.json` für dieselbe Erlaubnis als Schema.org-kompatible JSON-LD-Datei
