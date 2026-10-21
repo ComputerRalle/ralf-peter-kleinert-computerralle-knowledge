@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://knowledge.ralf-peter-kleinert.de/</loc></url>
-  <url><loc>https://knowledge.ralf-peter-kleinert.de/README.html</loc></url>
-  <url><loc>https://knowledge.ralf-peter-kleinert.de/README.md</loc></url>
   <url><loc>https://knowledge.ralf-peter-kleinert.de/books.html</loc></url>
   <url><loc>https://knowledge.ralf-peter-kleinert.de/books.json</loc></url>
   <url><loc>https://knowledge.ralf-peter-kleinert.de/books.md</loc></url>
@@ -33,12 +31,17 @@
   <url><loc>https://knowledge.ralf-peter-kleinert.de/publications.html</loc></url>
   <url><loc>https://knowledge.ralf-peter-kleinert.de/publications.json</loc></url>
   <url><loc>https://knowledge.ralf-peter-kleinert.de/publications.md</loc></url>
+  <url><loc>https://knowledge.ralf-peter-kleinert.de/README.html</loc></url>
+  <url><loc>https://knowledge.ralf-peter-kleinert.de/README.md</loc></url>
   <url><loc>https://knowledge.ralf-peter-kleinert.de/security.html</loc></url>
   <url><loc>https://knowledge.ralf-peter-kleinert.de/security.json</loc></url>
   <url><loc>https://knowledge.ralf-peter-kleinert.de/security.md</loc></url>
   <url><loc>https://knowledge.ralf-peter-kleinert.de/software.html</loc></url>
   <url><loc>https://knowledge.ralf-peter-kleinert.de/software.json</loc></url>
   <url><loc>https://knowledge.ralf-peter-kleinert.de/software.md</loc></url>
+  <url><loc>https://knowledge.ralf-peter-kleinert.de/transparenz.html</loc></url>
+  <url><loc>https://knowledge.ralf-peter-kleinert.de/transparenz.json</loc></url>
+  <url><loc>https://knowledge.ralf-peter-kleinert.de/transparenz.md</loc></url>
   <url><loc>https://knowledge.ralf-peter-kleinert.de/unterstuetzer.html</loc></url>
   <url><loc>https://knowledge.ralf-peter-kleinert.de/unterstuetzer.json</loc></url>
   <url><loc>https://knowledge.ralf-peter-kleinert.de/unterstuetzer.md</loc></url>

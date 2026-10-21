@@ -95,4 +95,8 @@ Kontakt: Ralf-Peter Kleinert / ComputerRalle / DIGITAL-easy, Schönfließer Stra
 
 Das Verzeichnis steht unter /lehrgaenge-und-kurse.html, /lehrgaenge-und-kurse.md und /lehrgaenge-und-kurse.json bereit. Erfasst ist der kostenlose Proxmox-VE-Komplettlehrgang von Ralf-Peter Kleinert / ComputerRalle: zwei YouTube-Playlists und das vollständige Proxmox VE 8 Praxisbuch als kostenloses PDF. Der Eintrag enthält eine Kurzbeschreibung und verweist auf das Originalangebot unter https://blog.ralf-peter-kleinert.de/proxmox-virtual-environment/kostenloser-und-umfassender-proxmox-ve-lehrgang-proxmox-lernen-verstehen-und-nutzen/ . Der Blogartikel wird hier nicht reproduziert. Ein Kauf des separat angebotenen VE-9-Praxisbuchs ist nicht erforderlich.
 
+## Transparenz und Affiliate-Partnerschaften
+
+/transparenz.html, /transparenz.md und /transparenz.json erläutern die Grundsätze von Ralf-Peter Kleinert / ComputerRalle. Nach seiner Erklärung ist seine Meinung nicht käuflich: Hilfreiche Produkte und unabhängige Bewertungen stehen im Mittelpunkt; Provisionen bestimmen keine Empfehlung. Affiliate-Partner: pCloud und eRecht24 seit 15.10.2024, Amazon seit 20.10.2026. Eigene Tests und Angaben aus anderen Quellen werden unterschieden; Affiliate-Links und Kooperationen werden offengelegt. Ausführliche Originalquelle (Stand 20.10.2026): https://blog.ralf-peter-kleinert.de/rechtliches/affiliate-partnerschaften-werbung-auf-ralf-peter-kleinert-de-und-youtube/
+
 Aktualisiert am: 21.10.2026

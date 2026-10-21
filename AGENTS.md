@@ -1,6 +1,6 @@
 # Arbeitsanleitung für diese Knowledge Base
 
-Diese Datei vor Änderungen lesen. Sie dokumentiert Projektkonventionen und den Stand vom **10.10.2026**. Bei strukturellen Änderungen und neuen Pflegewegen ebenfalls aktualisieren. Nutzeranweisungen haben Vorrang. Fakten bei Bedarf anhand der aktuellen Dateien prüfen; die folgenden Zahlen sind Bestandsangaben, keine dauerhaften Vorgaben.
+Diese Datei vor Änderungen lesen. Sie dokumentiert Projektkonventionen und den Stand vom **21.10.2026**. Bei strukturellen Änderungen und neuen Pflegewegen ebenfalls aktualisieren. Nutzeranweisungen haben Vorrang. Fakten bei Bedarf anhand der aktuellen Dateien prüfen; die folgenden Zahlen sind Bestandsangaben, keine dauerhaften Vorgaben.
 
 ## Zweck und Identität
 
@@ -80,7 +80,7 @@ Nicht als allgemeinen Buildschritt ausführen. Vorher manuell ergänzte Videos u
 1. Auftrag und Quellen lesen; betroffene Markdown-, JSON- und Generator-Dateien bestimmen. Bei bereitgestellten Anhängen Inhalte einlesen, nicht bloß auf die Datei verlinken.
 2. Markdown aktualisieren. Generierte JSON-Quellen und fest hinterlegte Generatorangaben gemeinsam ändern; sonst betreffende JSON-Dateien direkt pflegen.
 3. Listenpositionen, `numberOfItems`, stabile `@id`-Werte und Verknüpfungen prüfen. Aufrufzahlen nur mit belegtem Stand; keine dauerhaft aktuellen Zähler behaupten.
-4. Datum konsistent pflegen. Aktuell lautet die vereinbarte Zeile überall `Aktualisiert am: 10.10.2026`; nicht durch bloßen Generatorlauf oder Prüfungen ein neues Datum behaupten. Bei inhaltlicher Aktualisierung an einem späteren Datum den neuen Stand konsistent setzen, sofern der Nutzer kein Datum vorgibt.
+4. Datum konsistent pflegen. Das Aktualisierungsdatum gilt je Datei (Bestand 10.10.2026, zuletzt ergänzte Inhalte 21.10.2026); nicht durch bloßen Generatorlauf, neue Navigation oder Prüfungen ein neues Inhaltsdatum behaupten. Bei inhaltlicher Aktualisierung an einem späteren Datum den neuen Stand konsistent setzen, sofern der Nutzer kein Datum vorgibt.
 5. Bei neuen Bereichen/Angeboten prüfen: `profile.json.contentDirectories`, `person.json.subjectOf`, Kontaktfelder, `llms.txt`, `llms-full.txt`, `README.md`, Startseiteninhalt und Navigation in `index.html`.
 6. Falls betroffen zuerst `node generate-knowledge-data.mjs`, danach `node generate-html.mjs`. HTML niemals ausschließlich manuell ändern, wenn es beim nächsten Lauf überschrieben würde.
 7. Sitemap bei neuen/entfernten öffentlichen Dateien aktualisieren; dann Prüfungen unten durchführen und die Änderungen kurz zusammenfassen.
@@ -176,7 +176,7 @@ Telefon-Link: `tel:+491632204923`. Signal und WhatsApp unter derselben Nummer; W
 - Alle JSON-Dateien parsen; `numberOfItems` mit tatsächlichen Einträgen vergleichen, auch verschachtelten Dienstleistungskatalog prüfen. Schema.org-Typen/Beziehungen separat beurteilen; syntaktisch gültiges JSON ist nicht automatisch korrektes JSON-LD.
 - Textgleichheit zwischen Quellen und JSON prüfen, insbesondere alle Rezensionen, Antworten und Unterstützerkommentare. Keine alten Rezensentennamen oder überholten Glättungshinweise stehen lassen.
 - HTML-/Markdown-Links auf vorhandene lokale Ziele prüfen; `https:`, `mailto:`, `tel:` und Anker entsprechend behandeln. Navigation und Footer auf jeder Inhaltsseite vorhanden, Datum genau einmal. Verifikationsdatei aus Inhaltsseitenprüfungen ausnehmen.
-- Sitemap als XML parsen, lokale Ziele und Ausschlüsse prüfen. Aktueller Stand: **48 URLs**, 16 HTML-Inhaltsseiten, 15 öffentliche Markdown-Dateien; `AGENTS.md` wird nicht mitgezählt. Zahlen bei Erweiterung neu bestimmen.
+- Sitemap als XML parsen, lokale Ziele und Ausschlüsse prüfen. Aktueller Stand: **51 URLs**, 17 HTML-Inhaltsseiten, 16 öffentliche Markdown-Dateien; `AGENTS.md` wird nicht mitgezählt. Zahlen bei Erweiterung neu bestimmen.
 - Bei Layoutänderungen bzw. neuen Seitentypen auch Browserdarstellung prüfen. Keine unbelegten Aussagen über visuelle Qualität.
 - `git diff --stat` und relevante Diffs kontrollieren. Keine angehängten Quelldateien aus `.codex/attachments` als Abhängigkeit voraussetzen: Inhalte müssen dauerhaft im Projekt liegen.
 - Restpunkte offen benennen: ursprüngliche Calaméo-Titel und Metadaten des ergänzten Videos fehlen weiterhin; die Startseite bindet die in der README empfohlenen Personen-/Marken-JSON-LD-Skripte bislang nicht direkt ein. Nicht als bereits erledigt darstellen.
@@ -186,3 +186,15 @@ Telefon-Link: `tel:+491632204923`. Signal und WhatsApp unter derselben Nummer; W
 Eigener Bereich `lehrgaenge-und-kurse.md/.html/.json`, in Navigation, Startseite, Gesamtprofil, Person, LLM-Verzeichnissen und Sitemap verknüpft. Aktuell ein Eintrag: kostenloser Proxmox-VE-Komplettlehrgang (zwei Playlists und vollständiges VE-8-Praxisbuch als kostenloses PDF), laut vom Autor bereitgestelltem Blogtext vom 21.10.2026. Nur kurze eigenständige Verzeichnisbeschreibung und Link zum Originalartikel übernehmen, keinen Blog-Volltext oder Lektionenkatalog duplizieren. 27 bezeichnet Playlist-Einträge mit Überschneidungen, nicht unterschiedliche Videos. Das separat angebotene VE-9-Buch ist kein Bestandteil des kostenlosen Angebots. Keine Kurstitel, Preise, Termine oder Abschlüsse erfinden. Neue Einträge manuell in Markdown und JSON-LD (`itemListElement`, `numberOfItems`) gemeinsam pflegen, danach HTML generieren. Aktualisierungsdaten gelten je Datei; unveränderte Inhalte behalten ihren bisherigen Stand.
 
 Die sieben vom Nutzer gelieferten Direktlinks zu PDF, beiden Playlists, ergänzenden Anleitungen, VE-9-Amazon-Angebot, YouTube-Kanal und Blog sind im Kurseintrag und JSON-LD erfasst. Bücherverzeichnis und Kurs sind gegenseitig verknüpft; keine zusätzliche Buchzählung für das kostenlose PDF.
+
+### Veröffentlichungsstand und Pflege des Lehrgangs
+
+- Der Nutzer hat am 21.10.2026 bestätigt, dass der ergänzte Bereich mit seinen Verknüpfungen funktioniert und öffentlich ist. Dies ist eine Nutzerbestätigung, kein eigener Live-Abruf.
+- Bei Änderungen am Angebot alle Direktlinks in `lehrgaenge-und-kurse.md/.json` gemeinsam pflegen; Bücherbezüge in `books.md/.json` abgleichen. Stabile Buch-IDs und die Zahl der Bucheinträge erhalten.
+- JSON-LD führt den Lehrgang als `Course` mit Person als Anbieter, `isAccessibleForFree: true` und einem Angebot zu 0 EUR. Kostenlose Materialien stehen unter `hasPart`, ergänzende Anleitungen und das optionale VE-9-Kaufbuch unter `isRelatedTo`. Den Kaufpreis des VE-9-Buchs nicht als 0 EUR ausweisen.
+- Keine Vollkopie des Blogartikels, keine Verdoppelung der Lektionen oder bestehender Bücher-/Videoeinträge anlegen. Kurze eigene Zusammenfassung und Original- sowie Materiallinks genügen.
+- Die jetzt folgende Pflege der Anleitungen ist lokal; die Nutzerbestätigung zum veröffentlichten Kurs ist keine Erlaubnis zu weiteren automatischen Pushes.
+
+## Ergänzung vom 21.10.2026: Transparenz
+
+Eigener Bereich `transparenz.md/.html/.json`, in Navigation, Startseite, Gesamtprofil, Person, LLM-Verzeichnissen, README und Sitemap verknüpft. Eigenständige Kurzfassung des vom Nutzer gelieferten Affiliate-Artikels (Originalstand 20.10.2026), keine Vollkopie. Kernaussagen: Meinung nicht käuflich; hilfreiche und geeignete Produkte statt provisionsgetriebener Verkäufe; eigene Tests von recherchierten Angaben unterscheiden; Affiliate-Links und Kooperationen offenlegen. Partnerstand: pCloud und eRecht24 seit 15.10.2024, Amazon seit 20.10.2026. Markdown und manuelle WebPage-JSON-LD gemeinsam pflegen, danach HTML generieren. Originalartikel als ausführliche Quelle erhalten; keine rechtliche Prüfung der Werbekennzeichnung behaupten.

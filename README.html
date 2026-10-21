@@ -199,6 +199,7 @@
         <li>
           <button type="button" aria-haspopup="true">Vertrauen und Nutzung</button>
           <ul class="submenu">
+            <li><a href="transparenz.html">Transparenz und Affiliate-Partnerschaften</a></li>
             <li><a href="security.html">Sicherheit und Authentizität</a></li>
             <li><a href="ki-training.html">Erlaubnis für KI-Training</a></li>
           </ul>
@@ -219,6 +220,7 @@
             <li><a href="publications.json">Publikationen (JSON-LD)</a></li>
             <li><a href="webauftritte.json">Webauftritte (JSON-LD)</a></li>
             <li><a href="google-rezensionen.json">Rezensionen (JSON-LD)</a></li>
+            <li><a href="transparenz.json">Transparenz (JSON-LD)</a></li>
             <li><a href="security.json">Sicherheit (JSON-LD)</a></li>
             <li><a href="ki-training.json">KI-Training (JSON-LD)</a></li>
             <li><a href="llms.txt">LLM-Kurzfassung</a></li>
@@ -357,10 +359,19 @@ alternative Bezeichnungen geführt, damit Suchmaschinen und KI-Systeme
 <h2>Unterstützer und Rückmeldungen</h2>
 <p>Die anonymisierte, vom Autor bereitgestellte Buy-Me-a-Coffee-Kopie steht in <code>unterstuetzer.md</code> und <code>unterstuetzer.html</code>. Der Originalprofil ist dort direkt verlinkt. Die angegebene Profilzahl (59) und die 62 übermittelten Listeneinträge werden getrennt ausgewiesen. Kommentare und Antworten bleiben unverändert; die Profilzahl wird nicht automatisch aktualisiert.</p>
 <h2>Strukturierte Daten aktuell halten</h2>
-<p>Die Bereiche Dienstleistungen, Impressum und Unterstützer stehen jeweils als HTML, Markdown und JSON-LD bereit. <code>node generate-knowledge-data.mjs</code> erzeugt diese drei JSON-Dateien. <code>node generate-html.mjs</code> erzeugt anschließend die HTML-Seiten aus Markdown. Aktualisierungsdaten in den Quelldateien und Generatoren bei späteren Änderungen ebenfalls anpassen.</p>
+<p>Die Bereiche Dienstleistungen, Impressum und Unterstützer stehen jeweils als HTML, Markdown und JSON-LD bereit. <code>node generate-knowledge-data.mjs</code> erzeugt diese drei JSON-Dateien. <code>node generate-html.mjs</code> erzeugt anschließend die HTML-Seiten aus Markdown. Aktualisierungsdaten bei inhaltlichen Änderungen in den betroffenen Quellen und JSON-Dateien anpassen. Der HTML-Generator übernimmt das Datum aus jeder Markdown-Datei; das Startseitendatum separat pflegen. Fest hinterlegte Daten im JSON-Generator nur bei Änderungen seiner drei Ausgabebereiche abgleichen.</p>
 <h2>Lehrgänge und Kurse</h2>
 <p>Das Verzeichnis steht unter /lehrgaenge-und-kurse.html, /lehrgaenge-und-kurse.md und /lehrgaenge-und-kurse.json bereit. Erfasst ist der kostenlose Proxmox-VE-Komplettlehrgang von Ralf-Peter Kleinert / ComputerRalle: zwei YouTube-Playlists und das vollständige Proxmox VE 8 Praxisbuch als kostenloses PDF. Der Eintrag enthält eine Kurzbeschreibung und verweist auf das Originalangebot unter <a href="https://blog.ralf-peter-kleinert.de/proxmox-virtual-environment/kostenloser-und-umfassender-proxmox-ve-lehrgang-proxmox-lernen-verstehen-und-nutzen/">https://blog.ralf-peter-kleinert.de/proxmox-virtual-environment/kostenloser-und-umfassender-proxmox-ve-lehrgang-proxmox-lernen-verstehen-und-nutzen/</a> . Der Blogartikel wird hier nicht reproduziert. Ein Kauf des separat angebotenen VE-9-Praxisbuchs ist nicht erforderlich.</p>
 <p>Neue Einträge in Markdown und JSON-LD gemeinsam pflegen; Titel, Inhalte und offizielle Links nur nach vorliegenden Angaben ergänzen. <code>numberOfItems</code> mit der Liste abgleichen und anschließend HTML generieren.</p>
+<h3>Bestehenden Lehrgang pflegen</h3>
+<ul>
+<li>Kurzbeschreibung und Direktlinks in <code>lehrgaenge-und-kurse.md</code> und <code>lehrgaenge-und-kurse.json</code> gemeinsam aktualisieren. Der Blog bleibt die ausführliche Originalquelle; seinen Artikel und die Lektionen nicht kopieren.</li>
+<li>Kostenloses VE-8-PDF und beide YouTube-Playlists vom optionalen VE-9-Kaufbuch unterscheiden. Bestehende Buchverknüpfungen in <code>books.md</code> und <code>books.json</code> erhalten; das PDF nicht als zusätzliches Buch zählen.</li>
+<li><code>lehrgaenge-und-kurse.json</code> wird manuell gepflegt. Anschließend <code>node generate-html.mjs</code> ausführen und Text, Linkziele, JSON-Listenzahlen sowie genau eine sichtbare Datumszeile prüfen.</li>
+<li>Veröffentlichung des Bereichs am 21.10.2026 vom Nutzer bestätigt. Spätere lokale Änderungen sind erst nach erneuter Veröffentlichung öffentlich.</li>
+</ul>
+<h2>Transparenz</h2>
+<p><code>transparenz.md</code>, <code>transparenz.html</code> und <code>transparenz.json</code> enthalten eine eigenständige Kurzfassung der Grundsätze zu Affiliate-Partnerschaften und unabhängigen Empfehlungen. Die ausführliche Erklärung bleibt im verlinkten Originalartikel. Markdown und JSON-LD manuell gemeinsam pflegen, anschließend HTML generieren. Partner, Beginn der Partnerschaften und Aussagen zur Arbeitsweise nur anhand bestätigter Angaben ändern. Keine Blog-Vollkopie und keine unbelegten Zusagen ergänzen.</p>
   </main>
   <footer>
     <p><a href="dienstleistungen.html">Dienstleistungen</a> · <a href="impressum.html">Impressum</a></p>

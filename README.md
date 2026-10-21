@@ -114,12 +114,23 @@ Die anonymisierte, vom Autor bereitgestellte Buy-Me-a-Coffee-Kopie steht in `unt
 
 ## Strukturierte Daten aktuell halten
 
-Die Bereiche Dienstleistungen, Impressum und Unterstützer stehen jeweils als HTML, Markdown und JSON-LD bereit. `node generate-knowledge-data.mjs` erzeugt diese drei JSON-Dateien. `node generate-html.mjs` erzeugt anschließend die HTML-Seiten aus Markdown. Aktualisierungsdaten in den Quelldateien und Generatoren bei späteren Änderungen ebenfalls anpassen.
+Die Bereiche Dienstleistungen, Impressum und Unterstützer stehen jeweils als HTML, Markdown und JSON-LD bereit. `node generate-knowledge-data.mjs` erzeugt diese drei JSON-Dateien. `node generate-html.mjs` erzeugt anschließend die HTML-Seiten aus Markdown. Aktualisierungsdaten bei inhaltlichen Änderungen in den betroffenen Quellen und JSON-Dateien anpassen. Der HTML-Generator übernimmt das Datum aus jeder Markdown-Datei; das Startseitendatum separat pflegen. Fest hinterlegte Daten im JSON-Generator nur bei Änderungen seiner drei Ausgabebereiche abgleichen.
 
 ## Lehrgänge und Kurse
 
 Das Verzeichnis steht unter /lehrgaenge-und-kurse.html, /lehrgaenge-und-kurse.md und /lehrgaenge-und-kurse.json bereit. Erfasst ist der kostenlose Proxmox-VE-Komplettlehrgang von Ralf-Peter Kleinert / ComputerRalle: zwei YouTube-Playlists und das vollständige Proxmox VE 8 Praxisbuch als kostenloses PDF. Der Eintrag enthält eine Kurzbeschreibung und verweist auf das Originalangebot unter https://blog.ralf-peter-kleinert.de/proxmox-virtual-environment/kostenloser-und-umfassender-proxmox-ve-lehrgang-proxmox-lernen-verstehen-und-nutzen/ . Der Blogartikel wird hier nicht reproduziert. Ein Kauf des separat angebotenen VE-9-Praxisbuchs ist nicht erforderlich.
 
 Neue Einträge in Markdown und JSON-LD gemeinsam pflegen; Titel, Inhalte und offizielle Links nur nach vorliegenden Angaben ergänzen. `numberOfItems` mit der Liste abgleichen und anschließend HTML generieren.
+
+### Bestehenden Lehrgang pflegen
+
+- Kurzbeschreibung und Direktlinks in `lehrgaenge-und-kurse.md` und `lehrgaenge-und-kurse.json` gemeinsam aktualisieren. Der Blog bleibt die ausführliche Originalquelle; seinen Artikel und die Lektionen nicht kopieren.
+- Kostenloses VE-8-PDF und beide YouTube-Playlists vom optionalen VE-9-Kaufbuch unterscheiden. Bestehende Buchverknüpfungen in `books.md` und `books.json` erhalten; das PDF nicht als zusätzliches Buch zählen.
+- `lehrgaenge-und-kurse.json` wird manuell gepflegt. Anschließend `node generate-html.mjs` ausführen und Text, Linkziele, JSON-Listenzahlen sowie genau eine sichtbare Datumszeile prüfen.
+- Veröffentlichung des Bereichs am 21.10.2026 vom Nutzer bestätigt. Spätere lokale Änderungen sind erst nach erneuter Veröffentlichung öffentlich.
+
+## Transparenz
+
+`transparenz.md`, `transparenz.html` und `transparenz.json` enthalten eine eigenständige Kurzfassung der Grundsätze zu Affiliate-Partnerschaften und unabhängigen Empfehlungen. Die ausführliche Erklärung bleibt im verlinkten Originalartikel. Markdown und JSON-LD manuell gemeinsam pflegen, anschließend HTML generieren. Partner, Beginn der Partnerschaften und Aussagen zur Arbeitsweise nur anhand bestätigter Angaben ändern. Keine Blog-Vollkopie und keine unbelegten Zusagen ergänzen.
 
 Aktualisiert am: 21.10.2026

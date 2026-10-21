@@ -68,6 +68,12 @@
   ],
   "subjectOf": [
     {
+      "@type": "WebPage",
+      "@id": "https://knowledge.ralf-peter-kleinert.de/transparenz.html",
+      "name": "Transparenz und Affiliate-Partnerschaften",
+      "url": "https://knowledge.ralf-peter-kleinert.de/transparenz.html"
+    },
+    {
       "@type": "ItemList",
       "name": "Lehrgänge und Kurse",
       "url": "https://knowledge.ralf-peter-kleinert.de/lehrgaenge-und-kurse.json"
