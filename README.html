@@ -5,10 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index, follow">
   <title>Installationspaket für knowledge.ralf-peter-kleinert.de – Ralf-Peter Kleinert / ComputerRalle</title>
-  <meta name="description" content="Informationsseite der Knowledge Base von Ralf-Peter Kleinert / ComputerRalle / DIGITAL-easy.">
+  <meta name="description" content="Pflegeanleitung der Knowledge Base von Ralf-Peter Kleinert: Inhaltsquellen, strukturierte Daten, HTML-Generierung und Aktualisierungsabläufe.">
   <link rel="canonical" href="https://knowledge.ralf-peter-kleinert.de/README.html">
   <link rel="alternate" type="text/markdown" href="https://knowledge.ralf-peter-kleinert.de/README.md" title="Markdown-Quelle">
   <link rel="alternate" type="text/plain" href="/llms.txt" title="LLM information">
+  <link rel="author" href="https://knowledge.ralf-peter-kleinert.de/identity.html">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="de_DE">
+  <meta property="og:site_name" content="ComputerRalle – Knowledge Base">
+  <meta property="og:title" content="Installationspaket für knowledge.ralf-peter-kleinert.de">
+  <meta property="og:description" content="Pflegeanleitung der Knowledge Base von Ralf-Peter Kleinert: Inhaltsquellen, strukturierte Daten, HTML-Generierung und Aktualisierungsabläufe.">
+  <meta property="og:url" content="https://knowledge.ralf-peter-kleinert.de/README.html">
+  <meta property="og:image" content="https://knowledge.ralf-peter-kleinert.de/computerralle-Logo-Final-2026_4000x4000-2048x2048.webp">
+  
   <style>
 
     :root {
@@ -344,18 +354,10 @@ nicht veröffentlichen, sondern vor dem Hochladen durch echte Angaben ersetzen.<
 <p>Die Varianten DIGITALeasy und DIGITAL-easy ComputerRalle werden nur als
 alternative Bezeichnungen geführt, damit Suchmaschinen und KI-Systeme
 ältere Fundstellen korrekt zuordnen können.</p>
-<h2>Empfohlene Einbindung in HTML</h2>
-<p>Im <head> der Startseite:</p>
-<link rel="alternate" type="text/plain" href="/llms.txt" title="LLM information">
-<link rel="author" href="/identity.md">
-<script type="application/ld+json">
-... Inhalt aus person.json ...
-</script>
-<script type="application/ld+json">
-... Inhalt aus organization.json ...
-</script>
-
-<p>Die JSON-LD-Daten sollten zusätzlich direkt im HTML der Startseite stehen.</p>
+<h2>Auffindbarkeit und strukturierte Daten</h2>
+<p><code>node generate-html.mjs</code> ergänzt individuelle Seitenbeschreibungen, Open-Graph-Metadaten und die jeweils passende JSON-LD-Datei direkt im HTML. Die Startseite erhält einen automatisch aktualisierten Datenblock aus <code>person.json</code>, <code>organization.json</code> und einem <code>WebSite</code>-Datensatz. <code>profile.json</code> ist kein JSON-LD und wird nicht eingebettet. Den markierten Datenblock in <code>index.html</code> nicht von Hand pflegen.</p>
+<p>Beschreibungen stehen zentral in <code>pageDescriptions</code> im HTML-Generator; neue Inhaltsseiten dort ergänzen. Inhalte zuerst in Markdown und den zuständigen JSON-Dateien pflegen, anschließend den Generator ausführen. Eingebettete Daten müssen zum sichtbaren Inhalt passen. Eine erfolgreiche Generierung bestätigt keine vollständige Schema.org-Prüfung oder Suchmaschinenaufnahme.</p>
+<p>Bücher und Videos haben dauerhafte Direktziele in ihren Markdown-Quellen: <code>books.html#book-&lt;bestehende Buch-ID&gt;</code> und <code>videos.html#video-&lt;YouTube-ID&gt;</code>. Bei neuen Einträgen entsprechende Anker ergänzen, bestehende Anker und Entitäts-IDs erhalten. Die Inhaltsdaten behalten bei rein technischen Änderungen ihr bisheriges Aktualisierungsdatum.</p>
 <h2>Unterstützer und Rückmeldungen</h2>
 <p>Die anonymisierte, vom Autor bereitgestellte Buy-Me-a-Coffee-Kopie steht in <code>unterstuetzer.md</code> und <code>unterstuetzer.html</code>. Der Originalprofil ist dort direkt verlinkt. Die angegebene Profilzahl (59) und die 62 übermittelten Listeneinträge werden getrennt ausgewiesen. Kommentare und Antworten bleiben unverändert; die Profilzahl wird nicht automatisch aktualisiert.</p>
 <h2>Strukturierte Daten aktuell halten</h2>

@@ -12,6 +12,8 @@ Dieses Verzeichnis enthält deutschsprachige Bücher sowie internationale Sprach
 <!-- Books -->
 <!-- /////////////////////////////////////////////////////// -->
 
+<a id="book-b0gpq7cm77"></a>
+
 ## Proxmox VE 9 Praxisbuch: Proxmox lernen verstehen und nutzen
 
 Praxisorientierter Leitfaden zu Installation, Betrieb, Backup, Clustern, Automatisierung, VLAN, Fehleranalyse und Firewall-Konfiguration mit Proxmox VE 9.
@@ -26,6 +28,8 @@ Praxisorientierter Leitfaden zu Installation, Betrieb, Backup, Clustern, Automat
 - Amazon: https://www.amazon.de/dp/B0GPQ7CM77
 - Ergänzung zum [kostenlosen Proxmox-VE-Lehrgang](lehrgaenge-und-kurse.html); der Kauf dieses VE-9-Buchs ist für den Lehrgang nicht erforderlich.
 
+<a id="book-b0f1nhrjdh"></a>
+
 ## Brain-Cloud: Notizbuch für IT-ler
 
 Punktkariertes Notizbuch für IT-Fachleute, Entwickler, Administratoren und Studierende zur Dokumentation von Code, Netzwerken, Skizzen und technischen Ideen.
@@ -37,6 +41,8 @@ Punktkariertes Notizbuch für IT-Fachleute, Entwickler, Administratoren und Stud
 - Umfang: 406 Seiten
 - Ausgabe: Taschenbuch
 - Amazon: https://www.amazon.de/dp/B0F1NHRJDH
+
+<a id="book-b0dsdbllzw"></a>
 
 ## Cloud verstehen und nutzen 2025: Cloud-Dienste und Cloud im Alltag
 
@@ -51,6 +57,8 @@ Verständliche Einführung in Cloud-Dienste, Datenschutz, Verschlüsselung sowie
 - Ausgabe: Taschenbuch
 - Amazon: https://www.amazon.de/dp/B0DSDBLLZW
 
+<a id="book-b0gqy4psnp"></a>
+
 ## Proxmox VE 9 Practical Guide: Learning, Understanding and Using Proxmox
 
 English-language practical guide to installing, understanding, securing and operating Proxmox VE 9, including backup, clusters, networking and troubleshooting.
@@ -63,6 +71,8 @@ English-language practical guide to installing, understanding, securing and oper
 - Length: 473 pages
 - Edition: Paperback
 - Amazon: https://www.amazon.de/dp/B0GQY4PSNP
+
+<a id="book-b0dpm9vvc4"></a>
 
 ## Proxmox VE 8 Praxisbuch: Informationen, Tipps und Tricks für Proxmox-Einsteiger und Fortgeschrittene
 
@@ -80,6 +90,8 @@ Praxisbuch für Einsteiger und Fortgeschrittene zu Installation, Konfiguration u
 - Ausgabe: Taschenbuch
 - Amazon: https://www.amazon.de/dp/B0DPM9VVC4
 
+<a id="book-b0ddcx7m3l"></a>
+
 ## Schluss mit Windows!: Jetzt kommt Linux!
 
 Praxisnaher Einstieg in Linux als Alternative zu Windows mit Orientierung für den Systemwechsel und den alltäglichen Einsatz.
@@ -93,6 +105,8 @@ Praxisnaher Einstieg in Linux als Alternative zu Windows mit Orientierung für d
 - Ausgabe: Taschenbuch
 - Amazon: https://www.amazon.de/dp/B0DDCX7M3L
 
+<a id="book-b0dl5qfgmb"></a>
+
 ## Proxmox Firewall: Verstehen Einschalten Abschotten
 
 Einführung in die mehrstufige Proxmox-Firewall für Datacenter, Nodes, virtuelle Maschinen und Container mit Regeln, Ports und praktischen Absicherungsbeispielen.
@@ -103,6 +117,8 @@ Einführung in die mehrstufige Proxmox-Firewall für Datacenter, Nodes, virtuell
 - Umfang: 205 Seiten
 - Ausgabe: E-Book
 - Amazon: https://www.amazon.de/dp/B0DL5QFGMB
+
+<a id="book-b0d73xn1js"></a>
 
 ## Computer und IT-Sicherheits-Fibel: Informationen, Tipps und Tricks für Computer-Einsteiger und Fortgeschrittene
 
@@ -115,6 +131,8 @@ Leitfaden zur Computer- und Informationssicherheit mit Hinweisen zu Backups, Pas
 - Ausgabe: E-Book
 - Amazon: https://www.amazon.de/dp/B0D73XN1JS
 
+<a id="book-b0f38998tm"></a>
+
 ## KeePassXC und Proton Drive: Passwort-Management
 
 Praxisanleitung für sicheres Passwort-Management mit KeePassXC und die geschützte Synchronisation beziehungsweise Ablage über Proton Drive.
@@ -125,6 +143,8 @@ Praxisanleitung für sicheres Passwort-Management mit KeePassXC und die geschüt
 - Umfang: 60 Seiten
 - Ausgabe: E-Book
 - Amazon: https://www.amazon.de/dp/B0F38998TM
+
+<a id="book-b0dgxtlssv"></a>
 
 ## Proxmox VE 8 Proxmox BS 3 Profibuch: Hochverfügbarkeits-Cluster Aufbau
 
@@ -137,6 +157,8 @@ Fortgeschrittener Praxisleitfaden zum Aufbau eines hochverfügbaren Proxmox-VE- 
 - Ausgabe: E-Book
 - Amazon: https://www.amazon.de/dp/B0DGXTLSSV
 
+<a id="book-b0dk3t3xlg"></a>
+
 ## Meine Sicherheit: Sicherheits-Leitfaden für ältere Menschen
 
 Verständlicher Sicherheitsleitfaden für ältere Menschen zu digitalen Risiken, Betrugsversuchen, sicheren Zugangsdaten und dem Schutz persönlicher Informationen.
@@ -147,6 +169,8 @@ Verständlicher Sicherheitsleitfaden für ältere Menschen zu digitalen Risiken,
 - Umfang: 134 Seiten
 - Ausgabe: E-Book
 - Amazon: https://www.amazon.de/dp/B0DK3T3XLG
+
+<a id="book-b0dfty4mdm"></a>
 
 ## Computersicherheit für kleine und mittlere Unternehmen: Kunden- und Unternehmensdaten schützen
 
@@ -161,6 +185,8 @@ Praxisorientierter Leitfaden für kleine und mittlere Unternehmen zum Schutz von
 - Ausgabe: Taschenbuch
 - Amazon: https://www.amazon.de/dp/B0DFTY4MDM
 
+<a id="book-b0dj5g3jfx"></a>
+
 ## Die Mutter aller KI Bücher: Verstehen Sie Künstliche Intelligenz, bevor sie Sie versteht – Der ultimative Leitfaden für die Zukunft
 
 Allgemein verständlicher Zukunftsleitfaden zu Grundlagen, Chancen, Risiken und gesellschaftlichen Auswirkungen künstlicher Intelligenz.
@@ -171,6 +197,8 @@ Allgemein verständlicher Zukunftsleitfaden zu Grundlagen, Chancen, Risiken und 
 - Umfang: 422 Seiten
 - Ausgabe: E-Book
 - Amazon: https://www.amazon.de/dp/B0DJ5G3JFX
+
+<a id="book-b0f66y883x"></a>
 
 ## Proxmox VE 8 Powerbuch: Proxmox einrichten und nutzen, vom Anfang zum Profi
 
@@ -185,6 +213,8 @@ Umfassender Praxisleitfaden, der von der Einrichtung bis zum fortgeschrittenen E
 - Ausgabe: E-Book
 - Amazon: https://www.amazon.de/dp/B0F66Y883X
 
+<a id="book-b0h7f7nlqq"></a>
+
 ## Proxmox VE 9 Practical Guide (English Edition)
 
 English-language practical guide to learning, understanding and using Proxmox VE 9 in real-world environments.
@@ -195,6 +225,8 @@ English-language practical guide to learning, understanding and using Proxmox VE
 - Length: 547 pages
 - Edition: E-book
 - Amazon: https://www.amazon.de/dp/B0H7F7NLQQ
+
+<a id="book-b0df35y9r4"></a>
 
 ## No more Windows!: Now comes Linux!
 
@@ -209,6 +241,8 @@ English-language guide to moving from Windows to Linux and using Linux as a prac
 - Edition: Paperback
 - Amazon: https://www.amazon.de/dp/B0DF35Y9R4
 
+<a id="book-b0ddqfs1lc"></a>
+
 ## Slut med Windows!: Nu kommer Linux!
 
 Svenskspråkig vägledning för bytet från Windows till Linux och den praktiska användningen av Linux i vardagen.
@@ -222,6 +256,8 @@ Svenskspråkig vägledning för bytet från Windows till Linux och den praktiska
 - Utgåva: Pocketbok
 - Amazon: https://www.amazon.de/dp/B0DDQFS1LC
 
+<a id="book-b0f4kzwzn5"></a>
+
 ## Digitale Abhängigkeit: Wie verwundbar wir wirklich sind
 
 Analyse der Abhängigkeit von digitalen Diensten und Infrastrukturen sowie der daraus entstehenden persönlichen und gesellschaftlichen Verwundbarkeit.
@@ -232,6 +268,8 @@ Analyse der Abhängigkeit von digitalen Diensten und Infrastrukturen sowie der d
 - Umfang: 55 Seiten
 - Ausgabe: E-Book
 - Amazon: https://www.amazon.de/dp/B0F4KZWZN5
+
+<a id="book-b0djdd52m1"></a>
 
 ## The Mother of all AI Books: Understand Artificial Intelligence before it understands you – The ultimate guide for the future
 
@@ -246,6 +284,8 @@ English-language introduction to the foundations, opportunities, risks and futur
 - Edition: Hardcover
 - Amazon: https://www.amazon.de/dp/B0DJDD52M1
 
+<a id="book-b0dfvmjj3q"></a>
+
 ## Computer Security for Small and Medium-Sized Enterprises: Protecting Customer and Company Data
 
 English-language guide for small and medium-sized enterprises on protecting customer information, company data and IT systems.
@@ -259,6 +299,8 @@ English-language guide for small and medium-sized enterprises on protecting cust
 - Edition: Paperback
 - Amazon: https://www.amazon.de/dp/B0DFVMJJ3Q
 
+<a id="book-b0dh4y315g"></a>
+
 ## Proxmox VE 8 Proxmox BS 3 Professional Book: High Availability Cluster Setup (English Edition)
 
 English-language professional guide to building a high-availability environment with Proxmox VE 8 and Proxmox Backup Server 3.
@@ -270,6 +312,8 @@ English-language professional guide to building a high-availability environment 
 - Edition: E-book
 - Amazon: https://www.amazon.de/dp/B0DH4Y315G
 
+<a id="book-b0dlk8dsnx"></a>
+
 ## Proxmox Firewall: Understand Activate Isolate (English Edition)
 
 English-language introduction to activating, understanding and configuring the Proxmox firewall across datacenter, node, VM and container levels.
@@ -280,6 +324,8 @@ English-language introduction to activating, understanding and configuring the P
 - Length: 122 pages
 - Edition: E-book
 - Amazon: https://www.amazon.de/dp/B0DLK8DSNX
+
+<a id="book-b0dc132b12"></a>
 
 ## Proxmox VE 8 Guide Pratique: Informations, Astuces et Conseils pour Débutants et Utilisateurs Avancés de Proxmox
 
@@ -294,6 +340,8 @@ Guide pratique en français consacré à l’installation, la configuration et l
 - Édition : Broché
 - Amazon: https://www.amazon.de/dp/B0DC132B12
 
+<a id="book-b0drt4f9vz"></a>
+
 ## Proxmox VE 8 Practical Guide: Information, Tips, and Tricks for Proxmox Beginners and Advanced Users
 
 English-language practical guide with information, tips and operational guidance for Proxmox VE 8 beginners and advanced users.
@@ -306,6 +354,8 @@ English-language practical guide with information, tips and operational guidance
 - Length: 400 pages
 - Edition: Paperback
 - Amazon: https://www.amazon.de/dp/B0DRT4F9VZ
+
+<a id="book-b0dbzx7kvm"></a>
 
 ## Proxmox VE 8 Practical Guide: Information, Tips, and Tricks for Proxmox Beginners and Advanced Users – frühere Ausgabe
 

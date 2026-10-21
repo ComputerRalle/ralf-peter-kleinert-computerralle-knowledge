@@ -93,20 +93,13 @@ Die Varianten DIGITALeasy und DIGITAL-easy ComputerRalle werden nur als
 alternative Bezeichnungen geführt, damit Suchmaschinen und KI-Systeme
 ältere Fundstellen korrekt zuordnen können.
 
-## Empfohlene Einbindung in HTML
+## Auffindbarkeit und strukturierte Daten
 
-Im <head> der Startseite:
+`node generate-html.mjs` ergänzt individuelle Seitenbeschreibungen, Open-Graph-Metadaten und die jeweils passende JSON-LD-Datei direkt im HTML. Die Startseite erhält einen automatisch aktualisierten Datenblock aus `person.json`, `organization.json` und einem `WebSite`-Datensatz. `profile.json` ist kein JSON-LD und wird nicht eingebettet. Den markierten Datenblock in `index.html` nicht von Hand pflegen.
 
-<link rel="alternate" type="text/plain" href="/llms.txt" title="LLM information">
-<link rel="author" href="/identity.md">
-<script type="application/ld+json">
-... Inhalt aus person.json ...
-</script>
-<script type="application/ld+json">
-... Inhalt aus organization.json ...
-</script>
+Beschreibungen stehen zentral in `pageDescriptions` im HTML-Generator; neue Inhaltsseiten dort ergänzen. Inhalte zuerst in Markdown und den zuständigen JSON-Dateien pflegen, anschließend den Generator ausführen. Eingebettete Daten müssen zum sichtbaren Inhalt passen. Eine erfolgreiche Generierung bestätigt keine vollständige Schema.org-Prüfung oder Suchmaschinenaufnahme.
 
-Die JSON-LD-Daten sollten zusätzlich direkt im HTML der Startseite stehen.
+Bücher und Videos haben dauerhafte Direktziele in ihren Markdown-Quellen: `books.html#book-<bestehende Buch-ID>` und `videos.html#video-<YouTube-ID>`. Bei neuen Einträgen entsprechende Anker ergänzen, bestehende Anker und Entitäts-IDs erhalten. Die Inhaltsdaten behalten bei rein technischen Änderungen ihr bisheriges Aktualisierungsdatum.
 
 ## Unterstützer und Rückmeldungen
 

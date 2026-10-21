@@ -179,7 +179,7 @@ Telefon-Link: `tel:+491632204923`. Signal und WhatsApp unter derselben Nummer; W
 - Sitemap als XML parsen, lokale Ziele und Ausschlüsse prüfen. Aktueller Stand: **51 URLs**, 17 HTML-Inhaltsseiten, 16 öffentliche Markdown-Dateien; `AGENTS.md` wird nicht mitgezählt. Zahlen bei Erweiterung neu bestimmen.
 - Bei Layoutänderungen bzw. neuen Seitentypen auch Browserdarstellung prüfen. Keine unbelegten Aussagen über visuelle Qualität.
 - `git diff --stat` und relevante Diffs kontrollieren. Keine angehängten Quelldateien aus `.codex/attachments` als Abhängigkeit voraussetzen: Inhalte müssen dauerhaft im Projekt liegen.
-- Restpunkte offen benennen: ursprüngliche Calaméo-Titel fehlen weiterhin; die Startseite bindet die in der README empfohlenen Personen-/Marken-JSON-LD-Skripte bislang nicht direkt ein. Nicht als bereits erledigt darstellen.
+- Restpunkte offen benennen: ursprüngliche Calaméo-Titel fehlen weiterhin; die Einbettung von Personen-/Marken-JSON-LD auf der Startseite ist seit der Optimierung vom 21.10.2026 umgesetzt. Keine vollständige Schema.org- oder Google-Validierung behaupten.
 
 ## Ergänzung vom 21.10.2026: Lehrgänge und Kurse
 
@@ -198,3 +198,7 @@ Die sieben vom Nutzer gelieferten Direktlinks zu PDF, beiden Playlists, ergänze
 ## Ergänzung vom 21.10.2026: Transparenz
 
 Eigener Bereich `transparenz.md/.html/.json`, in Navigation, Startseite, Gesamtprofil, Person, LLM-Verzeichnissen, README und Sitemap verknüpft. Eigenständige Kurzfassung des vom Nutzer gelieferten Affiliate-Artikels (Originalstand 20.10.2026), keine Vollkopie. Kernaussagen: Meinung nicht käuflich; hilfreiche und geeignete Produkte statt provisionsgetriebener Verkäufe; eigene Tests von recherchierten Angaben unterscheiden; Affiliate-Links und Kooperationen offenlegen. Partnerstand: pCloud und eRecht24 seit 15.10.2024, Amazon seit 20.10.2026. Markdown und manuelle WebPage-JSON-LD gemeinsam pflegen, danach HTML generieren. Originalartikel als ausführliche Quelle erhalten; keine rechtliche Prüfung der Werbekennzeichnung behaupten.
+
+## Ergänzung vom 21.10.2026: Auffindbarkeit
+
+HTML-Generator ergänzt individuelle Beschreibungen (`pageDescriptions`), Open-Graph-Angaben, Autorenlink, JSON-LD-Alternativlink und die passende bestehende JSON-LD-Quelle als Inline-Skript; `identity` verwendet `person.json`, `README` keine JSON-LD-Datei. `profile.json` nicht einbetten. Startseite: markierter automatisch aktualisierter Datenblock aus Person, Marke und WebSite. Der Generator aktualisiert diesen Block, während CSS, Navigation und sichtbare Startseiteninhalte direkt gepflegt bleiben. JSON sicher gegen schließende Script-Tags serialisieren. Bücher und Videos besitzen Markdown-Anker `book-<bestehende Buch-ID>` bzw. `video-<YouTube-ID>`; bei neuen Einträgen ergänzen und vorhandene erhalten. Technische Metadatenpflege setzt Inhaltsdaten nicht neu.
