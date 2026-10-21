@@ -31,6 +31,7 @@
     "dnbPublications": "https://knowledge.ralf-peter-kleinert.de/publications.json"
   },
   "contentDirectories": {
+    "courses": "https://knowledge.ralf-peter-kleinert.de/lehrgaenge-und-kurse.json",
     "books": "https://knowledge.ralf-peter-kleinert.de/books.json",
     "videos": "https://knowledge.ralf-peter-kleinert.de/videos.json",
     "publications": "https://knowledge.ralf-peter-kleinert.de/publications.md",
@@ -76,7 +77,7 @@
     "Downloads",
     "Kurse"
   ],
-  "updatedAt": "2026-10-10",
+  "updatedAt": "2026-10-21",
   "contact": {
     "email": "digitaleasy@ralf-peter-kleinert.de",
     "telephone": "+491632204923",

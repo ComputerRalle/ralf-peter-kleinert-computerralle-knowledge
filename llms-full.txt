@@ -173,4 +173,8 @@ Dienstleistungen: /dienstleistungen.html, /dienstleistungen.md, /dienstleistunge
 Impressum: /impressum.html, /impressum.md, /impressum.json.
 Unterstützer-Rückmeldungen: /unterstuetzer.html, /unterstuetzer.md, /unterstuetzer.json.
 Kontakt: Ralf-Peter Kleinert / ComputerRalle / DIGITAL-easy, Schönfließer Straße 78, 16548 Glienicke /Nordbahn. Telefon, Signal und WhatsApp: +49 163 2204923. E-Mail: digitaleasy@ralf-peter-kleinert.de.
-Aktualisiert am: 10.10.2026
+## Lehrgänge und Kurse
+
+Das Verzeichnis steht unter /lehrgaenge-und-kurse.html, /lehrgaenge-und-kurse.md und /lehrgaenge-und-kurse.json bereit. Erfasst ist der kostenlose Proxmox-VE-Komplettlehrgang von Ralf-Peter Kleinert / ComputerRalle: zwei YouTube-Playlists und das vollständige Proxmox VE 8 Praxisbuch als kostenloses PDF. Der Eintrag enthält eine Kurzbeschreibung und verweist auf das Originalangebot unter https://blog.ralf-peter-kleinert.de/proxmox-virtual-environment/kostenloser-und-umfassender-proxmox-ve-lehrgang-proxmox-lernen-verstehen-und-nutzen/ . Der Blogartikel wird hier nicht reproduziert. Ein Kauf des separat angebotenen VE-9-Praxisbuchs ist nicht erforderlich.
+
+Aktualisiert am: 21.10.2026

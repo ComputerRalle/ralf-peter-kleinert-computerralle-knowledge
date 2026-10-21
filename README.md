@@ -116,4 +116,10 @@ Die anonymisierte, vom Autor bereitgestellte Buy-Me-a-Coffee-Kopie steht in `unt
 
 Die Bereiche Dienstleistungen, Impressum und Unterstützer stehen jeweils als HTML, Markdown und JSON-LD bereit. `node generate-knowledge-data.mjs` erzeugt diese drei JSON-Dateien. `node generate-html.mjs` erzeugt anschließend die HTML-Seiten aus Markdown. Aktualisierungsdaten in den Quelldateien und Generatoren bei späteren Änderungen ebenfalls anpassen.
 
-Aktualisiert am: 10.10.2026
+## Lehrgänge und Kurse
+
+Das Verzeichnis steht unter /lehrgaenge-und-kurse.html, /lehrgaenge-und-kurse.md und /lehrgaenge-und-kurse.json bereit. Erfasst ist der kostenlose Proxmox-VE-Komplettlehrgang von Ralf-Peter Kleinert / ComputerRalle: zwei YouTube-Playlists und das vollständige Proxmox VE 8 Praxisbuch als kostenloses PDF. Der Eintrag enthält eine Kurzbeschreibung und verweist auf das Originalangebot unter https://blog.ralf-peter-kleinert.de/proxmox-virtual-environment/kostenloser-und-umfassender-proxmox-ve-lehrgang-proxmox-lernen-verstehen-und-nutzen/ . Der Blogartikel wird hier nicht reproduziert. Ein Kauf des separat angebotenen VE-9-Praxisbuchs ist nicht erforderlich.
+
+Neue Einträge in Markdown und JSON-LD gemeinsam pflegen; Titel, Inhalte und offizielle Links nur nach vorliegenden Angaben ergänzen. `numberOfItems` mit der Liste abgleichen und anschließend HTML generieren.
+
+Aktualisiert am: 21.10.2026

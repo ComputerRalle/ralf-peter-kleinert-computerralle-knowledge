@@ -17,7 +17,7 @@
   "mainEntityOfPage": {
     "@id": "https://knowledge.ralf-peter-kleinert.de/",
     "@type": "WebPage",
-    "dateModified": "2026-10-10"
+    "dateModified": "2026-10-21"
   },
   "description": "Ralf-Peter Kleinert, bekannt als ComputerRalle, ist ein deutscher IT-Praktiker, Fachbuchautor, Softwareentwickler und Content Creator. Seine Schwerpunkte sind IT-Sicherheit, Windows, Linux, Proxmox VE, Backup, Virtualisierung, Server, Open-Source-Software und verständliche technische Anleitungen.",
   "jobTitle": [
@@ -67,6 +67,11 @@
     "https://buymeacoffee.com/computerralle"
   ],
   "subjectOf": [
+    {
+      "@type": "ItemList",
+      "name": "Lehrgänge und Kurse",
+      "url": "https://knowledge.ralf-peter-kleinert.de/lehrgaenge-und-kurse.json"
+    },
     {
       "@type": "ItemList",
       "name": "Bücher von Ralf-Peter Kleinert",

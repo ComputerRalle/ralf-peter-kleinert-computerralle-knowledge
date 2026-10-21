@@ -31,6 +31,7 @@ Statische, deutschsprachige Knowledge Base für Menschen, Suchmaschinen und KI-S
 | Person und Identität | `identity.md`, `person.json` | `identity.html` |
 | Marke | `organization.md`, `organization.json` (Typ `Brand`) | `organization.html` |
 | Gesamtprofil, Kontakt, Verzeichnisse | `profile.json` (eigenes Format, kein JSON-LD) | keine eigene Seite |
+| Lehrgänge und Kurse | `lehrgaenge-und-kurse.md`, `lehrgaenge-und-kurse.json` (manuell) | `lehrgaenge-und-kurse.html` |
 | Bücher | `books.md`, `books.json` | `books.html` |
 | Videos | `videos.md`, `videos.json` | `videos.html` |
 | DNB und weitere Veröffentlichungen | `publications.md`, `publications.json` | `publications.html` |
@@ -54,7 +55,7 @@ Erzeugt aus allen Markdown-Dateien außer `AGENTS.md` die gleichnamigen HTML-Dat
 - `index.html` wird nicht generiert; dort Navigation, CSS und Footer direkt pflegen.
 - Projektpfad ist seit dieser Sitzung relativ zum Skript über `fileURLToPath` bestimmt. Der frühere feste Desktop-Pfad wurde entfernt.
 - **Abhängigkeit:** `marked` wird noch über einen absoluten lokalen Pfad unter `C:/Users/konta/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/marked/lib/marked.esm.js` importiert. Vor Ausführung auf einem anderen Rechner Verfügbarkeit prüfen bzw. Portabilität gezielt herstellen. Keine zusätzliche Installation auf Verdacht.
-- Das Datum im Footer und der reguläre Ausdruck zum Entfernen der Markdown-Datumszeile sind derzeit auf **10.10.2026** festgelegt. Bei Datumswechsel beide Stellen sowie `index.html` anpassen. Genau eine sichtbare Datumszeile je Inhaltsseite sicherstellen.
+- Seit 21.10.2026 liest der Generator das Aktualisierungsdatum jeder Markdown-Datei aus und übernimmt es in den Footer. Fehlende Datumszeilen führen zum Abbruch. Das Datum in `index.html` separat pflegen. Genau eine sichtbare Datumszeile je Inhaltsseite sicherstellen.
 - Generatorlauf ist keine visuelle Prüfung und keine Schema.org-Validierung.
 
 ### JSON: `node generate-knowledge-data.mjs`
@@ -175,7 +176,13 @@ Telefon-Link: `tel:+491632204923`. Signal und WhatsApp unter derselben Nummer; W
 - Alle JSON-Dateien parsen; `numberOfItems` mit tatsächlichen Einträgen vergleichen, auch verschachtelten Dienstleistungskatalog prüfen. Schema.org-Typen/Beziehungen separat beurteilen; syntaktisch gültiges JSON ist nicht automatisch korrektes JSON-LD.
 - Textgleichheit zwischen Quellen und JSON prüfen, insbesondere alle Rezensionen, Antworten und Unterstützerkommentare. Keine alten Rezensentennamen oder überholten Glättungshinweise stehen lassen.
 - HTML-/Markdown-Links auf vorhandene lokale Ziele prüfen; `https:`, `mailto:`, `tel:` und Anker entsprechend behandeln. Navigation und Footer auf jeder Inhaltsseite vorhanden, Datum genau einmal. Verifikationsdatei aus Inhaltsseitenprüfungen ausnehmen.
-- Sitemap als XML parsen, lokale Ziele und Ausschlüsse prüfen. Aktueller Stand: **45 URLs**, 15 HTML-Inhaltsseiten, 14 öffentliche Markdown-Dateien; `AGENTS.md` wird nicht mitgezählt. Zahlen bei Erweiterung neu bestimmen.
+- Sitemap als XML parsen, lokale Ziele und Ausschlüsse prüfen. Aktueller Stand: **48 URLs**, 16 HTML-Inhaltsseiten, 15 öffentliche Markdown-Dateien; `AGENTS.md` wird nicht mitgezählt. Zahlen bei Erweiterung neu bestimmen.
 - Bei Layoutänderungen bzw. neuen Seitentypen auch Browserdarstellung prüfen. Keine unbelegten Aussagen über visuelle Qualität.
 - `git diff --stat` und relevante Diffs kontrollieren. Keine angehängten Quelldateien aus `.codex/attachments` als Abhängigkeit voraussetzen: Inhalte müssen dauerhaft im Projekt liegen.
 - Restpunkte offen benennen: ursprüngliche Calaméo-Titel und Metadaten des ergänzten Videos fehlen weiterhin; die Startseite bindet die in der README empfohlenen Personen-/Marken-JSON-LD-Skripte bislang nicht direkt ein. Nicht als bereits erledigt darstellen.
+
+## Ergänzung vom 21.10.2026: Lehrgänge und Kurse
+
+Eigener Bereich `lehrgaenge-und-kurse.md/.html/.json`, in Navigation, Startseite, Gesamtprofil, Person, LLM-Verzeichnissen und Sitemap verknüpft. Aktuell ein Eintrag: kostenloser Proxmox-VE-Komplettlehrgang (zwei Playlists und vollständiges VE-8-Praxisbuch als kostenloses PDF), laut vom Autor bereitgestelltem Blogtext vom 21.10.2026. Nur kurze eigenständige Verzeichnisbeschreibung und Link zum Originalartikel übernehmen, keinen Blog-Volltext oder Lektionenkatalog duplizieren. 27 bezeichnet Playlist-Einträge mit Überschneidungen, nicht unterschiedliche Videos. Das separat angebotene VE-9-Buch ist kein Bestandteil des kostenlosen Angebots. Keine Kurstitel, Preise, Termine oder Abschlüsse erfinden. Neue Einträge manuell in Markdown und JSON-LD (`itemListElement`, `numberOfItems`) gemeinsam pflegen, danach HTML generieren. Aktualisierungsdaten gelten je Datei; unveränderte Inhalte behalten ihren bisherigen Stand.
+
+Die sieben vom Nutzer gelieferten Direktlinks zu PDF, beiden Playlists, ergänzenden Anleitungen, VE-9-Amazon-Angebot, YouTube-Kanal und Blog sind im Kurseintrag und JSON-LD erfasst. Bücherverzeichnis und Kurs sind gegenseitig verknüpft; keine zusätzliche Buchzählung für das kostenlose PDF.

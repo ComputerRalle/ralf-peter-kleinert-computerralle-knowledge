@@ -15,7 +15,11 @@ for (const file of files) {
   const targetName = file.replace(/\.md$/i, ".html");
   const targetPath = path.join(root, targetName);
   let markdown = fs.readFileSync(sourcePath, "utf8");
-  markdown = markdown.replace(/^Aktualisiert am: 10\.10\.2026\s*$/gm, "");
+  const dateMatch = markdown.match(/^Aktualisiert am: (\d{2})\.(\d{2})\.(\d{4})\s*$/m);
+  if (!dateMatch) throw new Error(`Aktualisierungsdatum fehlt: ${file}`);
+  const displayDate = `${dateMatch[1]}.${dateMatch[2]}.${dateMatch[3]}`;
+  const isoDate = `${dateMatch[3]}-${dateMatch[2]}-${dateMatch[1]}`;
+  markdown = markdown.replace(/^Aktualisiert am: \d{2}\.\d{2}\.\d{4}\s*$/gm, "");
 
   const titleMatch = markdown.match(/^#\s+(.+)$/m);
   const title = titleMatch ? titleMatch[1].trim() : file.replace(/\.md$/i, "");
@@ -68,7 +72,7 @@ ${body.trim()}
   </main>
   <footer>
     <p><a href="dienstleistungen.html">Dienstleistungen</a> · <a href="impressum.html">Impressum</a></p>
-    <p>Aktualisiert am: <time datetime="2026-10-10">10.10.2026</time></p>
+    <p>Aktualisiert am: <time datetime="${isoDate}">${displayDate}</time></p>
     <p>Ralf-Peter Kleinert / ComputerRalle / DIGITAL-easy · <a href="${markdownUrl}">Markdown-Quelle</a></p>
   </footer>
 </body>

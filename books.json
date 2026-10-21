@@ -41,7 +41,12 @@
         "url": "https://www.amazon.de/dp/B0GPQ7CM77",
         "sameAs": [
           "https://www.amazon.de/dp/B0GPQ7CM77"
-        ]
+        ],
+        "subjectOf": {
+          "@type": "WebPage",
+          "name": "Kostenloser Proxmox-VE-Lehrgang",
+          "url": "https://knowledge.ralf-peter-kleinert.de/lehrgaenge-und-kurse.html"
+        }
       }
     },
     {
@@ -148,7 +153,18 @@
         "url": "https://www.amazon.de/dp/B0DPM9VVC4",
         "sameAs": [
           "https://www.amazon.de/dp/B0DPM9VVC4"
-        ]
+        ],
+        "subjectOf": {
+          "@type": "WebPage",
+          "name": "Kostenloser Proxmox-VE-Lehrgang",
+          "url": "https://knowledge.ralf-peter-kleinert.de/lehrgaenge-und-kurse.html"
+        },
+        "workExample": {
+          "@type": "Book",
+          "name": "Proxmox VE 8 Praxisbuch – kostenloses PDF",
+          "url": "https://downloads.ralf-peter-kleinert.de/download/proxmox-ve-8-praxisbuch-kostenlos",
+          "isAccessibleForFree": true
+        }
       }
     },
     {
@@ -642,5 +658,5 @@
       }
     }
   ],
-  "dateModified": "2026-10-10"
+  "dateModified": "2026-10-21"
 }

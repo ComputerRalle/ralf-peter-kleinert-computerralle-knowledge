@@ -24,6 +24,7 @@ Praxisorientierter Leitfaden zu Installation, Betrieb, Backup, Clustern, Automat
 - Umfang: 514 Seiten
 - Ausgabe: Taschenbuch
 - Amazon: https://www.amazon.de/dp/B0GPQ7CM77
+- Ergänzung zum [kostenlosen Proxmox-VE-Lehrgang](lehrgaenge-und-kurse.html); der Kauf dieses VE-9-Buchs ist für den Lehrgang nicht erforderlich.
 
 ## Brain-Cloud: Notizbuch für IT-ler
 
@@ -64,6 +65,9 @@ English-language practical guide to installing, understanding, securing and oper
 - Amazon: https://www.amazon.de/dp/B0GQY4PSNP
 
 ## Proxmox VE 8 Praxisbuch: Informationen, Tipps und Tricks für Proxmox-Einsteiger und Fortgeschrittene
+
+- [Vollständiges Proxmox VE 8 Praxisbuch kostenlos als PDF herunterladen](https://downloads.ralf-peter-kleinert.de/download/proxmox-ve-8-praxisbuch-kostenlos)
+- Begleitmaterial zum [kostenlosen Proxmox-VE-Lehrgang](lehrgaenge-und-kurse.html).
 
 Praxisbuch für Einsteiger und Fortgeschrittene zu Installation, Konfiguration und Betrieb von Proxmox VE 8 sowie zu Backup, Netzwerk und Administration.
 
@@ -337,4 +341,4 @@ Kommentars einfügen und alle Platzhalter durch echte Angaben ersetzen.
 
 <!-- Neue Bücher oberhalb dieser Zeile einfügen. -->
 
-Aktualisiert am: 10.10.2026
+Aktualisiert am: 21.10.2026
