@@ -119,7 +119,7 @@ $lines += '</urlset>'
 ### Bücher, Videos und Calaméo
 
 - Ausgangsbestand: 25 Bucheinträge, 135 Videos/Shorts, 15 DNB-Publikationen und 16 Webauftritte. Die README-Aussage über leere Bücher-/Videolisten wurde berichtigt; tatsächlich gab es keine leeren Dateien.
-- Zusätzliches Video: `https://www.youtube.com/watch?v=8Yvj72rAU-Q`. Vom Nutzer als online bestätigt, laut seiner damaligen Angabe rund 5.000 Aufrufe. Keine erfundene Metadatenprüfung; Originaltitel/Upload-Datum/Dauer fehlen beim Ergänzungseintrag weiterhin. Die Aufrufzahl wurde nicht als fester Zähler eingebaut. Stand: 136 Videoeinträge.
+- Video `8Yvj72rAU-Q`: früherer Platzhalter am 21.10.2026 anhand direkt abgerufener YouTube-Metadaten vervollständigt. Zusätzlich `3Kx-Jq7NR5E`, `DZC4bONOJaY` und `hygALG9lJcg` ergänzt. Stand: 139 Videoeinträge. Originaltitel, Upload-Datum, Dauer und unveränderte Videobeschreibungen dieser vier Videos sind in Markdown/HTML und JSON erfasst. Keine laufenden Aufrufzahlen ergänzt. Affiliate-Hinweise in der SABRENT-Beschreibung erhalten; enthaltene Preise und Leistungsangaben sind Aussagen aus der Videobeschreibung, keine aktuellen Angebote oder unabhängigen Messungen.
 - Acht Calaméo-Links in `publications.md/.json`: Präfix `https://www.calameo.com/read/007590640`, Endungen `1c8b9e7d51fe`, `495f980ba2e0`, `2c5e582d41c1`, `3665ed90500b`, `3c34b0bdd0ba`, `45b736311bfa`, `80f0f740328a`, `e09e8c81f9b8`.
 - Calaméo blockiert KI-Zugriff; der Nutzer hat die Dokumente persönlich geprüft. Alte Hinweise „noch nicht geprüft“ wurden entfernt. Neutrale nummerierte Bezeichnungen bleiben, bis Originaltitel vorliegen. Keine Vermutung, ob Volltext oder Leseprobe. Calaméo-Einträge getrennt von den 15 DNB-Nachweisen halten; Gesamtverzeichnis aktuell 23 Einträge. Bei später eindeutig zugeordneten Leseproben zusätzlich am passenden Buch verlinken, nicht als neues Buch zählen.
 
@@ -179,7 +179,7 @@ Telefon-Link: `tel:+491632204923`. Signal und WhatsApp unter derselben Nummer; W
 - Sitemap als XML parsen, lokale Ziele und Ausschlüsse prüfen. Aktueller Stand: **51 URLs**, 17 HTML-Inhaltsseiten, 16 öffentliche Markdown-Dateien; `AGENTS.md` wird nicht mitgezählt. Zahlen bei Erweiterung neu bestimmen.
 - Bei Layoutänderungen bzw. neuen Seitentypen auch Browserdarstellung prüfen. Keine unbelegten Aussagen über visuelle Qualität.
 - `git diff --stat` und relevante Diffs kontrollieren. Keine angehängten Quelldateien aus `.codex/attachments` als Abhängigkeit voraussetzen: Inhalte müssen dauerhaft im Projekt liegen.
-- Restpunkte offen benennen: ursprüngliche Calaméo-Titel und Metadaten des ergänzten Videos fehlen weiterhin; die Startseite bindet die in der README empfohlenen Personen-/Marken-JSON-LD-Skripte bislang nicht direkt ein. Nicht als bereits erledigt darstellen.
+- Restpunkte offen benennen: ursprüngliche Calaméo-Titel fehlen weiterhin; die Startseite bindet die in der README empfohlenen Personen-/Marken-JSON-LD-Skripte bislang nicht direkt ein. Nicht als bereits erledigt darstellen.
 
 ## Ergänzung vom 21.10.2026: Lehrgänge und Kurse
 

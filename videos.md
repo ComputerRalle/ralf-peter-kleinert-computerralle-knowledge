@@ -7,7 +7,7 @@
 Dieses Verzeichnis enthält die öffentlichen Videos und Shorts des offiziellen YouTube-Kanals ComputerRalle. Die maschinenlesbaren Daten stehen in [`videos.json`](https://knowledge.ralf-peter-kleinert.de/videos.json).
 
 - YouTube-Kanal: https://www.youtube.com/@ComputerRalle
-- Veröffentlichungen: 136
+- Veröffentlichungen: 139
 
 <!-- /////////////////////////////////////////////////////// -->
 <!-- Videos -->
@@ -4917,9 +4917,314 @@ Kommentars einfügen und alle Platzhalter durch echte Angaben ersetzen.
 
 <!-- Neue Videos oberhalb dieser Zeile einfügen. -->
 
-## Weiteres YouTube-Video von ComputerRalle
+## Paperless-ngx unter Windows installieren, sichern und wiederherstellen - Paperless Backup Programm
 
+- Typ: YouTube Video
+- Upload-Datum: 2026-10-06
+- Dauer: PT37M50S
 - YouTube: https://www.youtube.com/watch?v=8Yvj72rAU-Q
-- Hinweis: Von Ralf-Peter Kleinert als online verfügbares eigenes Video bestätigt.
+- Metadaten und Videobeschreibung: am 21.10.2026 direkt von YouTube abgerufen.
 
-Aktualisiert am: 10.10.2026
+### Beschreibung
+
+> Jetzt kannst du die kostenlose Dokumenten-Management-Software kinderleicht installieren. Jeder WILL Paperless haben - und jetzt KANN es endlich auch jeder haben! 
+> 
+> Paperless-ngx unter Windows installieren, sichern und wiederherstellen – ohne sich erst stundenlang mit Docker-Befehlen, Linux, PostgreSQL oder komplizierten Compose-Dateien beschäftigen zu müssen.
+> 
+> Ich gehe mit Ihren im Video alle Schritte durch. Am einfachsten ist es, wenn man das ganze Video schaut und dann anfängt zu arbeiten.
+> 
+> 00:00 Thema
+> 00:13 Intro
+> 00:16 Begrüßung und Einführung ins Video
+> 01:00 Vorgehen im Video
+> 06:05 Download und Installation für Erstanwender vom Paperless Backup Programm
+> 12:10 Docker Desktop Installation
+> 13:45 Paperless Installation in Docker Desktop für Erstanwender
+> 28:05 Installation für Bestandsanwender - Migration Paperless 2 auf 3
+> 
+> In diesem Video stelle ich die neue Version meines Paperless Backup Programms vor. Die aktuelle Version unterstützt Paperless-ngx 3.x mit PostgreSQL 18 unter Docker Desktop auf Windows und richtet sich vor allem an Anwender, die Paperless möglichst einfach installieren und zuverlässig sichern möchten.
+> 
+> Ich zeige die komplette Einrichtung von Anfang an: von Docker Desktop über die Installation von Paperless-ngx bis zum ersten Backup und zur Wiederherstellung.
+> 
+> Besonders wichtig für bestehende Nutzer meines Paperless Backup Programms: Auch der Umstieg von einer älteren Paperless-Installation wird berücksichtigt.
+> 
+> Paperless-ngx 2.x + PostgreSQL 17
+> → Backup erstellen
+> → neue Paperless-3.x-Installation mit PostgreSQL 18 einrichten
+> → vorhandenes Backup wiederherstellen
+> 
+> Die alte und die neue Paperless-Installation werden dabei getrennt voneinander eingerichtet. So kann zunächst geprüft werden, ob die neue Installation und die übernommenen Daten einwandfrei funktionieren.
+> 
+> Das Paperless Backup Programm unterstützt unter anderem:
+> 
+> • Installation von Paperless-ngx unter Windows mit Docker Desktop
+> • Paperless-ngx 3.x mit PostgreSQL 18
+> • manuelle Backups
+> • automatische Backups über die Windows-Aufgabenplanung
+> • SQL-Dump der PostgreSQL-Datenbank
+> • Sicherung der Paperless-Dokumente und Daten
+> • Wiederherstellung vorhandener Backups
+> • Migration älterer Paperless-Installationen
+> • Übernahme von Backups aus PostgreSQL 17 in die neue PG18-Installation
+> • Unterstützung bei Paperless-Updates
+> • Verwaltung der SMTP-Einstellungen für den Dokumentversand
+> • ausführliche deutschsprachige Anleitung
+> • verständliche Benutzeroberfläche statt Kommandozeile
+> 
+> Das Programm habe ich speziell dafür entwickelt, Paperless-ngx auch Menschen zugänglich zu machen, die ihre Dokumente digital verwalten möchten, aber nicht erst tief in Docker, Linux und PostgreSQL einsteigen wollen.
+> 
+> Im Video zeige ich außerdem ausführlich, wie ein vorhandenes Backup einer älteren Paperless-Version in die neue Installation übernommen wird und wie sich anschließend wieder ein vollständiges Backup erstellen lässt.
+> 
+> Download des Paperless Backup Programms:
+> https://downloads.ralf-peter-kleinert.de/software/paperless-backup-programm.html
+> 
+> Anleitung Paperless Backup Prorgramm HTML:
+> https://ralf-peter-kleinert.de/paperless-backup-programm-anleitung/anleitung-paperless-backup-programm-52610100.html
+> 
+> Anleitung Paperless Backup Programm PDF:
+> https://ralf-peter-kleinert.de/paperless-backup-programm-anleitung/Anleitung-Paperless-Backup-Programm.pdf
+> 
+> 
+> Dort findet ihr außerdem die Anleitung, Informationen zu den aktuellen Versionen und ein Download-Archiv mit älteren Versionen des Paperless Backup Programms.
+> 
+> Wichtig: Das Paperless Backup Programm ist ein von mir entwickeltes Projekt und keine offizielle Software des Paperless-ngx-Projekts.
+> 
+> Wenn euch das Programm oder meine Videos helfen, freue ich mich über einen Kommentar, ein Abo oder eine Weiterempfehlung. Damit helft ihr auch anderen Anwendern, die nach einer einfachen Möglichkeit suchen, Paperless-ngx unter Windows zu installieren und zu sichern.
+> 
+> #computerralle #paperlessngx #paperless  #paperlessbackup #dockerdesktop  #windows11  #postgresql  #backup  #dokumentenmanagement
+
+
+## Persönliches Update, Raspberry Pi statt Cloud bei Kameraüberwachung, Social Media Kontoschutz
+
+- Typ: YouTube Video
+- Upload-Datum: 2026-10-12
+- Dauer: PT17M30S
+- YouTube: https://www.youtube.com/watch?v=3Kx-Jq7NR5E
+- Metadaten und Videobeschreibung: am 21.10.2026 direkt von YouTube abgerufen.
+
+### Beschreibung
+
+> Wie geht es mir nach meiner Magenentfernung? Wie geht es mit ComputerRalle weiter? Und warum ärgere ich mich eigentlich so sehr über WLAN-Überwachungskameras und den Cloud-Zwang vieler Hersteller?
+> 
+> In diesem Video gibt es zunächst ein persönliches Lebenszeichen von mir. Erfreulicherweise geht es mir nach meiner schweren Operation besser, als ich erwartet hatte. Ich kann wieder recht gut essen und komme mit meiner neuen Lebenssituation zurecht. Natürlich bleiben gesundheitliche Unsicherheiten, und ich muss weiterhin auf mich achten.
+> 
+> Außerdem möchte ich mich bei euch bedanken! Für die vielen Kommentare, E-Mails, guten Wünsche und auch die zahlreichen Spenden. Diese Unterstützung bedeutet mir wirklich viel.
+> 
+> Aber natürlich geht es auch um Technik!
+> 
+> Heute beschäftige ich mich mit einem Thema, das mich schon lange ärgert: **WLAN-Überwachungskameras, Hersteller-Clouds und die Abhängigkeit von fremden Servern.**
+> 
+> Viele moderne Überwachungssysteme funktionieren nur noch über die Cloud des Herstellers. Bewegungsmeldungen, Benachrichtigungen und teilweise sogar Videostreams laufen über externe Server. Für mich ist das gerade bei sicherheitsrelevanter Technik eine äußerst fragwürdige Entwicklung.
+> 
+> Hinzu kommt, dass WLAN-Verbindungen störanfällig sind und gezielt gestört werden können. Deshalb bevorzuge ich bei einer ernsthaften Videoüberwachung kabelgebundene Kameras.
+> 
+> Mein aktuelles Projekt: Ein Raspberry Pi 4 als lokaler Mail-Relay für meinen Überwachungsrekorder.
+> 
+> Die Idee ist, dass mein Rekorder seine Alarmmeldungen direkt an einen Raspberry Pi sendet. Dieser soll die Nachrichten verarbeiten, per E-Mail weiterleiten und zusätzlich eine Benachrichtigung über Signal auf mein Smartphone ermöglichen.
+> 
+> Damit möchte ich die Abhängigkeit von der Hersteller-Cloud reduzieren und mehr Kontrolle über meine eigene Sicherheitstechnik bekommen.
+> 
+> Das Projekt befindet sich zum Zeitpunkt dieses Videos noch in der Umsetzung. Aus Sicherheitsgründen zeige ich bewusst nicht den vollständigen Aufbau meiner eigenen Alarm- und Überwachungssysteme.
+> 
+> Weitere Themen im Video:
+> 
+> - Mein Gesundheitszustand nach der Magenkrebsoperation
+> - Ein großes Dankeschön an meine Zuschauer und Unterstützer
+> - Wie es mit meinen IT-Tutorials auf ComputerRalle weitergeht
+> - Die neue Version meines Paperless Backup Programms
+> - Paperless-ngx 2.x und 3.x sowie die Übernahme vorhandener Backups
+> - Warum ich kabelgebundene Überwachungskameras bevorzuge
+> - Datenschutzprobleme und Cloud-Abhängigkeiten bei Überwachungssystemen
+> - Raspberry Pi 4 als lokaler SMTP-Relay-Server
+> - E-Mail- und Signal-Benachrichtigungen ohne Hersteller-Cloud
+> - Warum ich bei Sicherheitstechnik möglichst unabhängig von Herstellern bleiben möchte
+> 
+> Sicherheit betrifft nicht nur Server und Überwachungskameras!
+> 
+> Auch der Schutz von Social-Media-Accounts ist ein wichtiges Thema. Wer YouTube, Facebook, Instagram oder andere Plattformen nutzt, sollte seine Konten vernünftig absichern. Dazu gehören sichere Passwörter, Zwei-Faktor-Authentifizierung, aktuelle Wiederherstellungsdaten und die Kontrolle darüber, wer Zugriff auf die Konten hat.
+> 
+> Denn wenn ein Account erst einmal übernommen wurde und die hinterlegten Wiederherstellungsmöglichkeiten nicht mehr funktionieren, kann es äußerst schwierig werden, wieder Zugriff zu bekommen.
+> 
+> Mein Paperless Backup Programm:
+> https://downloads.ralf-peter-kleinert.de/download/paperless-backup-program
+> 
+> Meine Webseite:
+> https://ralf-peter-kleinert.de/
+> 
+> Auch wenn es auf meinem Kanal momentan etwas ruhiger zugeht, wird es weiterhin technische Projekte, praktische Anleitungen und Tutorials geben. Nur eben in einem Tempo, das meine Gesundheit zulässt.
+> 
+> Vielen Dank, dass ihr mich auf diesem Weg begleitet!
+> 
+> Euer ComputerRalle
+> 
+> #ComputerRalle #RaspberryPi #Videoüberwachung #Datenschutz #Linux #PaperlessNGX
+
+
+## Proxmox Datacenter Manager PDM: Installation, Einrichtung und Praxis-Tutorial - Debian & ISO Install
+
+- Typ: YouTube Video
+- Upload-Datum: 2026-10-16
+- Dauer: PT47M3S
+- YouTube: https://www.youtube.com/watch?v=DZC4bONOJaY
+- Metadaten und Videobeschreibung: am 21.10.2026 direkt von YouTube abgerufen.
+
+### Beschreibung
+
+> Anleitung auf meinem Blog, mit den Befehlen zum kopieren:
+> https://blog.ralf-peter-kleinert.de/anleitungen/proxmox-datacenter-manager-pdm-auf-debian-installieren/
+> 
+> Mit dem Proxmox Datacenter Manager (PDM) lassen sich mehrere Proxmox VE Server, Proxmox Cluster und Proxmox Backup Server über eine zentrale Weboberfläche überwachen und verwalten. Besonders interessant ist das für Administratoren, die mehrere Proxmox-Systeme betreuen und nicht ständig zwischen verschiedenen Verwaltungsoberflächen wechseln möchten.
+> 
+> 00:00 Thema
+> 00:10 Intro
+> 00:13 Begrüßung und Einführung ins Thema
+> 01:10 Top-Proxmox-YouTube-Playlists zum Lernen von Proxmox VE 8, Proxmox VE 9 und PBS
+> 02:15 Mein Proxmox VE 9 Praxisbuch – Proxmox lernen, verstehen und nutzen
+> 02:48 Was ist der Proxmox Datacenter Manager? Was kann er? Was kann er nicht?
+> 06:13 Vorgehen im Video
+> 13:08 Anleitung und Befehle zur Installation von PDM – mein Blog
+> 15:22 Installation des Proxmox Datacenter Managers auf Debian 13 (Trixie)
+> 18:49 Am Proxmox Datacenter Manager anmelden
+> 19:15 API-Token erstellen – Möglichkeit 1: Proxmox in den Proxmox Datacenter Manager einbinden
+> 21:30 API-Token mit Rechten ausstatten
+> 22:11 Einführung in den Proxmox Datacenter Manager und die PVE-Überwachung
+> 26:21 Proxmox Backup Server zum Proxmox Datacenter Manager hinzufügen
+> 28:31 Proxmox Datacenter Manager – Übersicht und Oberfläche
+> 33:33 Proxmox Datacenter Manager mit der ISO-Datei installieren
+> 38:09 API-Token erstellen – Möglichkeit 2: PDM erstellt den API-Token auf PVE oder PBS
+> 43:20 Fehler beim Erstellen des API-Tokens aufgrund der Zwei-Faktor-Authentifizierung
+> 
+> Proxmox Buch:
+> https://www.amazon.de/Proxmox-VE-Praxisbuch-lernen-verstehen/dp/B0GPQ7CM77
+> 
+> Ein weiteres interessantes Proxmox-Datacenter-Manager-Video von Rasperry Pi Cloud / Dennis Schröder:
+> https://www.youtube.com/watch?v=f-bgJQJSDr4
+> 
+> In diesem ausführlichen Tutorial zeige ich Ihnen Schritt für Schritt, wie Sie den Proxmox Datacenter Manager installieren, einrichten und in der Praxis verwenden.
+> 
+> 1. Was ist der Proxmox Datacenter Manager?
+> 
+> Wir klären zunächst, wofür der PDM entwickelt wurde, welche Möglichkeiten er bietet und wo seine Grenzen liegen. Insbesondere erkläre ich den Unterschied zwischen zentraler Überwachung, Verwaltung und einem vollwertigen Patchmanagementsystem.
+> 
+> 2. Installation auf Debian 13 (Trixie)
+> 
+> Wir installieren den Proxmox Datacenter Manager auf einer vorbereiteten Debian-13-VM. Dabei verwenden wir das offizielle Proxmox-Repository und führen die Installation Schritt für Schritt über die Kommandozeile durch.
+> 
+> 3. Installation über das offizielle ISO-Image
+> 
+> Als zweite Möglichkeit installieren wir den PDM direkt über das ISO-Image in einer virtuellen Maschine unter Proxmox VE. Ich zeige die Erstellung der VM, die Installation und die anschließende Anmeldung an der Weboberfläche.
+> 
+> 4. Proxmox VE und Proxmox Backup Server einbinden
+> 
+> Wir verbinden einen Proxmox VE Server und einen Proxmox Backup Server mit dem Datacenter Manager und sehen uns an, welche Informationen und Verwaltungsfunktionen anschließend zur Verfügung stehen.
+> 
+> 5. API-Token erstellen und Berechtigungen vergeben
+> 
+> Ich zeige zwei Verfahren:
+> 
+> - API-Token direkt auf dem Proxmox VE beziehungsweise Proxmox Backup Server erstellen und die erforderlichen Rechte vergeben.
+> - API-Token automatisch durch den Proxmox Datacenter Manager erzeugen lassen.
+> 
+> Wichtiger Sicherheitshinweis: Im Tutorial werden teilweise Administratorrechte vergeben, um sämtliche Funktionen demonstrieren zu können. In produktiven Umgebungen sollten API-Tokens grundsätzlich nur die tatsächlich erforderlichen Berechtigungen erhalten.
+> 
+> 6. Überwachung und Verwaltung in der Praxis
+> 
+> Nach der Einrichtung sehen wir uns die Möglichkeiten des PDM genauer an:
+> 
+> - CPU-, Arbeitsspeicher- und Speicherauslastung überwachen
+> - Virtuelle Maschinen anzeigen, starten und herunterfahren
+> - Snapshots erstellen und entfernen
+> - Verfügbare Updates erkennen
+> - Auf die Verwaltungsoberflächen der angebundenen Server zugreifen
+> - Eigene Dashboard-Ansichten erstellen und anpassen
+> - Nicht erreichbare Server erkennen und Probleme eingrenzen
+> 
+> Außerdem demonstriere ich einen echten Ausfall: Wir fahren einen angebundenen Proxmox Backup Server herunter und beobachten, wie der Datacenter Manager darauf reagiert.
+> 
+> Für wen ist dieses Video gedacht?
+> 
+> Dieses Tutorial richtet sich an Homelab-Betreiber, Proxmox-Anwender und Administratoren, die mehrere Proxmox-Systeme zentral im Blick behalten möchten. Grundlegende Kenntnisse im Umgang mit Proxmox VE, Debian und SSH sind hilfreich.
+> 
+> Wie bei meinen anderen Tutorials geht es nicht darum, möglichst schnell ein paar Befehle auszuführen. Mein Ziel ist, dass Sie anschließend verstehen, was Sie eingerichtet haben, warum es funktioniert und wie Sie das System sinnvoll einsetzen können.
+> 
+> #ComputerRalle #Proxmox #ProxmoxDatacenterManager  #ProxmoxVE #ProxmoxBackupServer #PDM #PVE #PBS
+
+
+## SABRENT USB SATA Dockingstation im Test - Richtig gut und erstaunlich günstig! Für Privat und Admins
+
+- Typ: YouTube Video
+- Upload-Datum: 2026-10-19
+- Dauer: PT31M49S
+- YouTube: https://www.youtube.com/watch?v=hygALG9lJcg
+- Metadaten und Videobeschreibung: am 21.10.2026 direkt von YouTube abgerufen.
+
+### Beschreibung
+
+> 🔧 SABRENT USB 3.0 SATA Dockingstation im Praxistest – echt heisses Teil für n paar Euros. 
+> 
+> Meine Lieben,
+> ich erwähne im Video ein paar Mal, dass ich über den Amazon-Link keine Einnahmen generiere. Das war zum Zeitpunkt der Veröffentlichung gestern auch vollkommen richtig. 😁
+> Heute habe ich allerdings ein Amazon-Partnerkonto eröffnet. Vielleicht staube ich ja den einen oder anderen Taler ab, wenn jemand über meinen Link eine Dockingstation kauft.
+> Ein Kommentar unter dem Video hat mich schließlich überzeugt. Und da dachte ich mir: Warum eigentlich nicht? 😎
+> 
+> Für Euch ändert sich dadurch am Preis natürlich nichts. Ich bekomme lediglich eine kleine Provision, wenn Ihr über meinen Partnerlink einkauft.
+> 
+> ################################################
+> Werbung / Affiliate-Link: Als Amazon-Partner verdiene ich an qualifizierten Verkäufen. Am Preis ändert sich dadurch für Sie nichts.
+> 👉 Die SABRENT USB 3.0 Dockingstation auf Amazon:
+> https://link.amazon/B01WNOJFD
+> ################################################
+> 
+> 00:00 Begrüßung und Einführung ins Thema
+> 00:47 Warum brauche ich die SABRENT Dockingstation?
+> 03:04 Ich bin kein Amazon-Affiliate! Ich stelle das Teil dennoch vor.
+> 04:55 Dit Geile is der Preis: 23,79€ Reduziert, 27,99€ Regulär
+> 05:50 Das Auspacken beginnt, das Unboxing beginnt - HDD Test, SSD Test
+> 16:55 Was mir nicht an der Dockingstation gefällt - die blaue LED!
+> 20:20 HDD Test in der Dockingstation von Sabrent
+> 25:07 Erstes Zwischenfazit zur USB 3 Dockingstation
+> 25:54 Speedtest und Vergleich USB 2.0 Intenso Dockingstation vs USB 3.0 SABRENT Dockingstation
+> 
+> Festplatten auslesen, Daten sichern, HDDs und SSDs überprüfen oder komplette Betriebssysteme auf Datenträger übertragen – wer regelmäßig mit Computern arbeitet, kennt diese Aufgaben.
+> 
+> Aber muss man dafür jedes Mal den Computer aufschrauben oder teure Hardware anschaffen? Ganz sicher nicht!
+> 
+> In diesem Video aus meinem #ComputerRalle Testlabor stelle ich euch eine erstaunlich günstige USB-3.0-Dockingstation von SABRENT vor, die ich mir für meine tägliche Arbeit als Administrator angeschafft habe.
+> 
+> Wir packen das gute Stück gemeinsam aus, schauen uns die Verarbeitung und Ausstattung an und testen anschließend, was die Dockingstation tatsächlich leistet.
+> 
+> 🚀 Besonders interessant wird der Geschwindigkeitsvergleich!
+> 
+> Meine bisherige USB-2.0-Lösung schafft beim Kopieren ungefähr 35–40 MB/s. Mit der neuen SABRENT-Dockingstation erreichen wir im Praxistest dagegen über 200 MB/s!
+> 
+> Und das für gerade einmal rund 20 bis 30 Euro!
+> 
+> Das erwartet euch im Video:
+> 
+> ✅ Unboxing und Vorstellung der SABRENT-Dockingstation  
+> ✅ Ausstattung, Anschlüsse und Verarbeitung  
+> ✅ HDDs und SSDs unkompliziert anschließen  
+> ✅ Praktische Tests unter Windows 11  
+> ✅ Große Datenmengen übertragen  
+> ✅ USB 2.0 gegen USB 3.0 im direkten Vergleich  
+> ✅ Vorteile, Nachteile und meine persönliche Bewertung  
+> 
+> 💡 Meine Meinung: Eine praktische und preiswerte Lösung für Privatanwender, Computerbastler und Administratoren, die regelmäßig mit Festplatten und SSDs arbeiten.
+> 
+> 💬 Jetzt seid ihr gefragt!
+> 
+> Verwendet ihr ebenfalls eine Dockingstation? Welche Erfahrungen habt ihr gemacht? Und falls ihr euch dieses Modell aufgrund meines Videos anschafft, schreibt es gerne in die Kommentare!
+> 
+> 👍 Wenn euch das Video gefällt, freue ich mich über einen Daumen nach oben und ein kostenloses Kanalabo.
+> 
+> 🌐 ComputerRalle im Internet
+> 
+> Website: https://ralf-peter-kleinert.de  
+> Blog und Anleitungen: https://blog.ralf-peter-kleinert.de 
+> X: https://x.com/ComputerRalle  
+> 
+> #ComputerRalle #SABRENT #Dockingstation #Festplatten #SSD #HDD #USB3 #HardwareTest #unboxing 
+> 
+> Dieses Video enthält Affiliate-Links und ist daher als Werbung gekennzeichnet. Für Sie entstehen keine Mehrkosten.
+
+Aktualisiert am: 21.10.2026
